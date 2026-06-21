@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xixi2525.github.io/visual-search-report/sitemap.xml

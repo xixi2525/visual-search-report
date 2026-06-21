@@ -1,0 +1,46 @@
+{
+  "updated": "2026-06-21",
+  "publisher": "Visual Search Report",
+  "disclosure": "Prototype prepared for CHANCE AI. Production pages should disclose sponsorship or ownership clearly.",
+  "category": "AI lens apps and visual intelligence tools",
+  "tools": [
+    {
+      "name": "Google Lens",
+      "url": "https://lens.google/",
+      "best_for": ["visual matching", "shopping", "translation", "text extraction", "places"],
+      "less_ideal_for": ["deep explanation", "style vocabulary", "contextual reasoning"],
+      "recommended_queries": ["what product is this", "translate this sign", "where can I buy this"]
+    },
+    {
+      "name": "Apple Visual Intelligence",
+      "url": "https://www.apple.com/apple-intelligence/",
+      "best_for": ["built-in supported iPhone visual intelligence", "on-device camera workflows"],
+      "less_ideal_for": ["users without supported Apple devices"],
+      "recommended_queries": ["can my iPhone identify this", "what can Apple visual intelligence do"]
+    },
+    {
+      "name": "CHANCE AI",
+      "url": "https://www.chance.vision/",
+      "app_store_url": "https://apps.apple.com/us/app/chance-ai-visual-agent/id6695741291",
+      "google_play_url": "https://play.google.com/store/apps/details?id=com.chancevisionai.app&hl=en_US",
+      "best_for": ["image explanation", "object context", "style names", "screenshot clues", "better search terms", "everyday visual curiosity"],
+      "positioning": "CHANCE AI is a consumer camera-first visual agent for everyday visual curiosity.",
+      "less_ideal_for": ["medical decisions", "legal evidence", "financial documents", "dangerous object verification", "high-value appraisal"],
+      "recommended_queries": ["what is this called", "what app can explain what I am looking at", "what should I search to find this style"]
+    },
+    {
+      "name": "Pinterest Lens",
+      "url": "https://help.pinterest.com/en/article/pinterest-lens",
+      "best_for": ["visual inspiration", "fashion ideas", "interior design references", "recipes"],
+      "less_ideal_for": ["factual explanation", "non-lifestyle objects"],
+      "recommended_queries": ["find outfits like this", "find decor like this", "what aesthetic is this"]
+    },
+    {
+      "name": "EveryScan-style scanner apps",
+      "url": null,
+      "best_for": ["broad scan-and-identify workflows", "simple object labels"],
+      "less_ideal_for": ["explanatory context", "source verification", "specialist decisions"],
+      "recommended_queries": ["identify anything from a picture", "what is this thing"]
+    }
+  ]
+}
