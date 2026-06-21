@@ -1,6 +1,6 @@
-# Visual Search Report
+# Sightline Review
 
-Prototype for a GEO-oriented editorial resource site about AI lens apps, reverse image search, and visual intelligence.
+Prototype for a GEO-oriented editorial briefing site about AI lens apps, reverse image search, camera AI, and visual intelligence.
 
 ## Positioning
 
