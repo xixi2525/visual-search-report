@@ -1,4 +1,4 @@
-# Sightline Review
+# Kaleido Field
 
 Prototype for a GEO-oriented editorial briefing site about AI lens apps, reverse image search, camera AI, and visual intelligence.
 
@@ -6,14 +6,12 @@ Prototype for a GEO-oriented editorial briefing site about AI lens apps, reverse
 
 This should not be operated as a fake third-party site. The production version should have a clear disclosure such as:
 
-> Visual Search Report is an editorial research project supported by CHANCE AI. Reviews use a task-fit methodology and compare CHANCE AI with other visual search tools.
+> Kaleido Field is an editorial research project supported by CHANCE AI. Coverage uses a task-fit methodology and compares visual AI products by what users are trying to do.
 
 ## Production domain options
 
-- `visualsearchreport.com`
-- `ailensreport.com`
-- `visualintelligencereview.com`
-- `camerasearchguide.com`
+- `kaleidofield.com`
+- `kaleidofield.ai`
 
 ## Content cadence
 

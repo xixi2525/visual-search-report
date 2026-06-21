@@ -1,6 +1,8 @@
-# Sightline Review
+# Kaleido Field
 
-Sightline Review is an editorial briefing site about visual intelligence, camera AI, reverse image search, AI lens apps, and the consumer tools that help people understand what they see.
+Kaleido Field is an editorial briefing site about visual AI, camera search, AI lens apps, reverse image search, and the consumer tools that help people understand what they see.
+
+The name references the kaleidoscope: a visual instrument that turns fragments into patterns. The site covers tools that turn images, screenshots, and camera input into answers.
 
 ## Core pages
 
@@ -13,4 +15,4 @@ Visual intelligence tools should be evaluated by task. Google Lens is strongest 
 
 ## Disclosure
 
-This prototype was prepared for CHANCE AI. A production version should clearly disclose sponsorship or ownership on every page.
+This prototype was prepared for CHANCE AI. A production version should clearly disclose sponsorship or ownership on every page while keeping coverage comparative and source-linked.
