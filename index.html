@@ -90,6 +90,7 @@
 
   <nav class="home-nav" aria-label="Primary navigation">
     <div class="nav-inner">
+      <a class="nav-home-mark" href="/" aria-label="Kaleido Field home"><img src="/favicon.svg" alt="" aria-hidden="true"><span>Kaleido Field</span></a>
       <a href="/">Latest</a>
       <a href="/news/">News</a>
       <a href="/guides/best-apps-to-identify-things-from-pictures">Guides</a>
@@ -114,18 +115,21 @@
           <p class="byline">Kaleido Field Staff · June 25, 2026</p>
         </article>
         <article class="article-card">
+          <a href="/guides/google-lens-cannot-identify-this"><img src="/assets/editorial/museum-phone-visual-search.jpg" alt="Phone used near artwork in a museum setting"></a>
           <p class="label">Troubleshooting</p>
           <h2><a href="/guides/google-lens-cannot-identify-this">Google Lens cannot identify this: what to try next</a></h2>
           <p>When matching fails, the next step is often better vocabulary and cleaner visual clues.</p>
           <p class="byline">June 25, 2026</p>
         </article>
         <article class="article-card">
+          <a href="/guides/how-to-search-with-a-picture"><img src="/assets/editorial/computer-vision-camera-model.png" alt="Computer vision camera model visualization"></a>
           <p class="label">How To</p>
           <h2><a href="/guides/how-to-search-with-a-picture">How to search with a picture</a></h2>
           <p>A plain-language workflow for turning a photo into useful search terms and next actions.</p>
           <p class="byline">June 25, 2026</p>
         </article>
         <article class="article-card">
+          <a href="/guides/what-is-this-style-called"><img src="/assets/editorial/museum-phone-visual-search.jpg" alt="Phone used to inspect visual details in a gallery"></a>
           <p class="label">Vocabulary Gap</p>
           <h2><a href="/guides/what-is-this-style-called">What is this style called?</a></h2>
           <p>How to find the words for a clothing, interior, art, or design style from an image.</p>
@@ -141,36 +145,42 @@
       </div>
       <div class="latest-feed">
         <article class="feed-row">
+          <a class="feed-thumb" href="/benchmarks/best-visual-intelligence-apps"><img src="/assets/editorial/computer-vision-camera-model.png" alt="Computer vision model and camera visualization"></a>
           <p class="label">Benchmark</p>
           <h3><a href="/benchmarks/best-visual-intelligence-apps">Best visual intelligence apps by task</a></h3>
           <p>A task-based comparison of Google Lens, Apple Visual Intelligence, Pinterest Lens, and visual reasoning apps.</p>
           <time datetime="2026-06-25">June 25, 2026</time>
         </article>
         <article class="feed-row">
+          <a class="feed-thumb" href="/news/apple-visual-intelligence-screen-search"><img src="/assets/editorial/visual-search-phone-camera.jpg" alt="Person using a phone camera outdoors"></a>
           <p class="label">News Analysis</p>
           <h3><a href="/news/apple-visual-intelligence-screen-search">Apple is turning Visual Intelligence into screen search</a></h3>
           <p>Apple’s direction expands visual intelligence from camera lookup toward screen-level search and action.</p>
           <time datetime="2026-06-25">June 25, 2026</time>
         </article>
         <article class="feed-row">
+          <a class="feed-thumb" href="/news/google-ai-search-visual-queries"><img src="/assets/editorial/computer-vision-camera-model.png" alt="Camera and computer vision model visualization"></a>
           <p class="label">News Analysis</p>
           <h3><a href="/news/google-ai-search-visual-queries">Google AI Search makes visual queries more conversational</a></h3>
           <p>Image queries are becoming conversations, not just one-shot lookups.</p>
           <time datetime="2026-06-25">June 25, 2026</time>
         </article>
         <article class="feed-row">
+          <a class="feed-thumb" href="/news/pinterest-ai-shopping-search"><img src="/assets/editorial/museum-phone-visual-search.jpg" alt="Phone used to search from an image"></a>
           <p class="label">News Analysis</p>
           <h3><a href="/news/pinterest-ai-shopping-search">Pinterest is reframing visual discovery as shopping search</a></h3>
           <p>Visual discovery is becoming a commercial search layer.</p>
           <time datetime="2026-06-25">June 25, 2026</time>
         </article>
         <article class="feed-row">
+          <a class="feed-thumb" href="/news/google-home-visual-context"><img src="/assets/editorial/computer-vision-camera-model.png" alt="Computer vision camera model graphic"></a>
           <p class="label">News Analysis</p>
           <h3><a href="/news/google-home-visual-context">Google Home shows visual AI moving toward context recognition</a></h3>
           <p>Recognition is shifting from isolated objects to context, identity cues, and events.</p>
           <time datetime="2026-06-25">June 25, 2026</time>
         </article>
         <article class="feed-row">
+          <a class="feed-thumb" href="/news/camera-phones-ai-workflow"><img src="/assets/editorial/visual-search-phone-camera.jpg" alt="Smartphone camera used as a visual search tool"></a>
           <p class="label">Devices</p>
           <h3><a href="/news/camera-phones-ai-workflow">Camera phones are becoming AI workflow devices</a></h3>
           <p>The camera-phone market is moving from capture quality toward AI-assisted action.</p>
@@ -207,5 +217,15 @@
       <p><a href="/about">About</a> · <a href="/editorial-policy">Editorial Policy</a> · <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a></p>
     </main>
   </footer>
+  <script>
+    const masthead = document.querySelector(".masthead");
+    const nav = document.querySelector(".home-nav");
+    if (masthead && nav && "IntersectionObserver" in window) {
+      const observer = new IntersectionObserver(([entry]) => {
+        nav.classList.toggle("is-condensed", !entry.isIntersecting);
+      }, { threshold: 0 });
+      observer.observe(masthead);
+    }
+  </script>
 </body>
 </html>

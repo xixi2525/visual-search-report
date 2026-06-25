@@ -81,7 +81,7 @@ main,
 }
 
 .masthead-compact {
-  padding: 18px 0 14px;
+  padding: 16px 0 12px;
 }
 
 .brand,
@@ -95,7 +95,7 @@ main,
 }
 
 .brand {
-  font-size: clamp(56px, 10vw, 124px);
+  font-size: clamp(42px, 7vw, 88px);
 }
 
 .brand-link {
@@ -155,7 +155,38 @@ nav,
 .nav-inner {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 0;
+}
+
+.nav-home-mark {
+  width: 0;
+  max-width: 0;
+  opacity: 0;
+  overflow: hidden;
+  transform: translateY(-2px);
+  transition: width 180ms ease, max-width 180ms ease, opacity 180ms ease, transform 180ms ease;
+}
+
+.nav-home-mark img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.nav-home-mark span {
+  font-family: var(--display);
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.home-nav.is-condensed .nav-home-mark {
+  width: auto;
+  max-width: 190px;
+  opacity: 1;
+  transform: translateY(0);
 }
 
 nav a,
@@ -751,7 +782,7 @@ footer a { color: var(--canvas); }
 }
 
 .wired-section {
-  padding: 30px 0 34px;
+  padding: 26px 0 34px;
   border-bottom: 1px solid var(--ink);
 }
 
@@ -792,13 +823,13 @@ footer a { color: var(--canvas); }
 
 .today-grid {
   display: grid;
-  grid-template-columns: 1.45fr repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1.36fr repeat(3, minmax(0, 1fr));
   border-bottom: 1px solid var(--hairline);
 }
 
 .article-card {
-  min-height: 310px;
-  padding: 18px;
+  min-height: 360px;
+  padding: 16px;
   border-right: 1px solid var(--hairline);
 }
 
@@ -815,7 +846,7 @@ footer a { color: var(--canvas); }
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
-  margin-bottom: 14px;
+  margin-bottom: 13px;
   filter: grayscale(100%);
 }
 
@@ -850,11 +881,27 @@ footer a { color: var(--canvas); }
 
 .feed-row {
   display: grid;
-  grid-template-columns: 170px minmax(260px, 0.44fr) minmax(260px, 1fr) 140px;
-  gap: 20px;
+  grid-template-columns: 148px 150px minmax(260px, 0.48fr) minmax(260px, 1fr) 130px;
+  gap: 18px;
   align-items: start;
-  padding: 18px 0;
+  padding: 16px 0;
   border-bottom: 1px solid var(--hairline);
+}
+
+.feed-thumb {
+  display: block;
+}
+
+.feed-thumb img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.feed-row:hover .feed-thumb img {
+  filter: grayscale(0%);
 }
 
 .feed-row:last-child {
