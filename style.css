@@ -43,7 +43,12 @@ footer a,
   color: var(--link);
 }
 
-a:hover { color: var(--link); }
+a:hover {
+  color: var(--ink);
+  text-decoration-color: var(--ink);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
 
 .topbar,
 header,
@@ -753,6 +758,22 @@ th {
   text-decoration: none;
 }
 
+.article-card h2 a,
+.feed-row h3 a,
+.channel-block a {
+  text-decoration: none;
+}
+
+.article-card h2 a:hover,
+.feed-row h3 a:hover,
+.channel-block a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--ink);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
 .breadcrumb span::before {
   content: "/";
   margin-right: 8px;
@@ -775,6 +796,11 @@ footer main {
 }
 
 footer a { color: var(--canvas); }
+
+footer a:hover {
+  color: var(--canvas);
+  text-decoration-color: var(--canvas);
+}
 
 .wired-front {
   width: min(1400px, calc(100% - 32px));
@@ -823,22 +849,18 @@ footer a { color: var(--canvas); }
 
 .today-grid {
   display: grid;
-  grid-template-columns: 1.36fr repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   border-bottom: 1px solid var(--hairline);
 }
 
 .article-card {
   min-height: 360px;
   padding: 16px;
-  border-right: 1px solid var(--hairline);
-}
-
-.article-card:first-child {
-  padding-left: 0;
+  box-shadow: inset -1px 0 0 var(--hairline);
 }
 
 .article-card:last-child {
-  border-right: 0;
+  box-shadow: none;
 }
 
 .article-card img {
@@ -851,7 +873,7 @@ footer a { color: var(--canvas); }
 }
 
 .article-card:hover img {
-  filter: grayscale(0%);
+  filter: grayscale(100%) contrast(112%);
 }
 
 .article-card h2,
@@ -863,13 +885,6 @@ footer a { color: var(--canvas); }
   font-size: 23px;
   font-weight: 800;
   line-height: 1.08;
-}
-
-.lead-card h2 {
-  font-family: var(--display);
-  font-size: clamp(36px, 4vw, 58px);
-  font-weight: 400;
-  line-height: 0.98;
 }
 
 .article-card p,
@@ -901,7 +916,7 @@ footer a { color: var(--canvas); }
 }
 
 .feed-row:hover .feed-thumb img {
-  filter: grayscale(0%);
+  filter: grayscale(100%) contrast(112%);
 }
 
 .feed-row:last-child {

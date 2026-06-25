@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Search with a picture cover</title>
+  <desc id="desc">Editorial abstract cover showing an image turning into search terms.</desc>
+  <rect width="1600" height="900" fill="#f7f7f4"/>
+  <rect x="120" y="130" width="520" height="520" fill="#111"/>
+  <circle cx="315" cy="335" r="92" fill="#fff"/>
+  <path d="M185 602 L330 455 L442 560 L520 485 L610 602 Z" fill="#fff"/>
+  <path d="M700 390 H1300" stroke="#111" stroke-width="8"/>
+  <path d="M1180 280 L1305 390 L1180 500" fill="none" stroke="#111" stroke-width="8"/>
+  <rect x="760" y="210" width="520" height="44" fill="#1619F3"/>
+  <rect x="760" y="590" width="380" height="36" fill="#111"/>
+  <rect x="760" y="650" width="270" height="36" fill="#111"/>
+</svg>

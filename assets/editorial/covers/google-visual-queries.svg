@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Google visual queries cover</title>
+  <desc id="desc">Editorial abstract cover showing image query conversation.</desc>
+  <rect width="1600" height="900" fill="#f6f6f3"/>
+  <rect x="120" y="130" width="620" height="430" fill="#111"/>
+  <circle cx="320" cy="330" r="80" fill="#fff"/>
+  <path d="M170 520 L360 390 L505 490 L610 425 L710 520 Z" fill="#fff"/>
+  <rect x="830" y="150" width="560" height="120" rx="60" fill="#fff" stroke="#111" stroke-width="6"/>
+  <rect x="890" y="198" width="360" height="24" fill="#111"/>
+  <rect x="900" y="355" width="460" height="96" rx="48" fill="#1619F3"/>
+  <rect x="960" y="392" width="260" height="22" fill="#fff"/>
+  <rect x="830" y="535" width="500" height="96" rx="48" fill="#fff" stroke="#111" stroke-width="6"/>
+  <rect x="890" y="572" width="310" height="22" fill="#111"/>
+</svg>

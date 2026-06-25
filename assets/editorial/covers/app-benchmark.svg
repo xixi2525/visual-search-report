@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Visual intelligence apps benchmark cover</title>
+  <desc id="desc">Editorial abstract cover showing an app comparison matrix.</desc>
+  <rect width="1600" height="900" fill="#f8f8f5"/>
+  <rect x="120" y="110" width="1360" height="680" fill="#fff" stroke="#111" stroke-width="6"/>
+  <g stroke="#111" stroke-width="4">
+    <line x1="120" y1="260" x2="1480" y2="260"/>
+    <line x1="120" y1="420" x2="1480" y2="420"/>
+    <line x1="120" y1="580" x2="1480" y2="580"/>
+    <line x1="460" y1="110" x2="460" y2="790"/>
+    <line x1="800" y1="110" x2="800" y2="790"/>
+    <line x1="1140" y1="110" x2="1140" y2="790"/>
+  </g>
+  <circle cx="290" cy="185" r="38" fill="#1619F3"/>
+  <circle cx="630" cy="185" r="38" fill="#111"/>
+  <circle cx="970" cy="185" r="38" fill="#d9d9d9"/>
+  <circle cx="1310" cy="185" r="38" fill="#fff" stroke="#111" stroke-width="5"/>
+  <g fill="#111">
+    <rect x="210" y="330" width="170" height="18"/>
+    <rect x="545" y="490" width="170" height="18"/>
+    <rect x="880" y="650" width="170" height="18"/>
+    <rect x="1220" y="330" width="170" height="18"/>
+  </g>
+</svg>

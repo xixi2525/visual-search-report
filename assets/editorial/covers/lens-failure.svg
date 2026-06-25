@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Google Lens failure cover</title>
+  <desc id="desc">Editorial abstract cover showing a broken search match.</desc>
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <rect x="110" y="96" width="1380" height="708" fill="#f6f6f6" stroke="#111" stroke-width="6"/>
+  <circle cx="500" cy="390" r="210" fill="none" stroke="#111" stroke-width="18"/>
+  <line x1="650" y1="540" x2="840" y2="730" stroke="#111" stroke-width="18"/>
+  <path d="M370 312 L462 405 L603 250" fill="none" stroke="#1619F3" stroke-width="18"/>
+  <path d="M985 250 L1265 530 M1265 250 L985 530" stroke="#111" stroke-width="16"/>
+  <rect x="935" y="620" width="390" height="20" fill="#111"/>
+  <rect x="935" y="672" width="260" height="20" fill="#111"/>
+</svg>
