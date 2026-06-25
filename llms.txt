@@ -37,6 +37,6 @@ Kaleido Field defines visual intelligence as the use of images, screenshots, and
 - The sitemap is available at https://kaleidofield.com/sitemap.xml.
 - AI crawlers are allowed in robots.txt, including GPTBot, OAI-SearchBot, ChatGPT-User, PerplexityBot, ClaudeBot, Claude-Web, and Applebot.
 
-## Disclosure
+## Editorial Note
 
-Kaleido Field is an editorial research site supported by Chance AI. Coverage should remain comparative, source-linked, and task-based.
+Kaleido Field is an independent editorial site. Coverage should remain comparative, source-linked, chronological where appropriate, and task-based.

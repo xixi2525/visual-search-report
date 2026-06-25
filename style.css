@@ -22,7 +22,6 @@ html {
 
 body {
   margin: 0;
-  padding-bottom: 58px;
   color: var(--body);
   background: var(--canvas);
   font-family: var(--sans);
@@ -79,6 +78,10 @@ main,
 .masthead {
   padding: 24px 0 20px;
   text-align: center;
+}
+
+.masthead-compact {
+  padding: 18px 0 14px;
 }
 
 .brand,
@@ -742,40 +745,160 @@ footer main {
 
 footer a { color: var(--canvas); }
 
-.bottom-dock {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 30;
+.wired-front {
+  width: min(1400px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.wired-section {
+  padding: 30px 0 34px;
+  border-bottom: 1px solid var(--ink);
+}
+
+.wired-section-header {
   display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: center;
-  gap: 16px;
-  min-height: 48px;
-  padding: 0 max(16px, calc((100vw - 1400px) / 2));
-  background: var(--ink);
-  color: var(--canvas);
-  border-top: 1px solid var(--ink);
+  grid-template-columns: minmax(0, 0.7fr) minmax(280px, 0.3fr);
+  gap: 28px;
+  align-items: end;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--ink);
+}
+
+.wired-section-header h1,
+.wired-section-header h2 {
+  margin: 0;
+  font-family: var(--display);
+  font-size: clamp(40px, 6vw, 76px);
+  font-weight: 400;
+  line-height: 0.95;
+}
+
+.wired-section-header p,
+.wired-section-header span {
+  margin: 0;
+  color: var(--muted);
+  font-family: var(--serif);
+  font-size: 17px;
+}
+
+.inline-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inline-header h2 {
+  font-size: clamp(34px, 4vw, 54px);
+}
+
+.today-grid {
+  display: grid;
+  grid-template-columns: 1.45fr repeat(3, minmax(0, 1fr));
+  border-bottom: 1px solid var(--hairline);
+}
+
+.article-card {
+  min-height: 310px;
+  padding: 18px;
+  border-right: 1px solid var(--hairline);
+}
+
+.article-card:first-child {
+  padding-left: 0;
+}
+
+.article-card:last-child {
+  border-right: 0;
+}
+
+.article-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  margin-bottom: 14px;
+  filter: grayscale(100%);
+}
+
+.article-card:hover img {
+  filter: grayscale(0%);
+}
+
+.article-card h2,
+.feed-row h3,
+.channel-block article {
+  margin: 0 0 10px;
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 23px;
+  font-weight: 800;
+  line-height: 1.08;
+}
+
+.lead-card h2 {
+  font-family: var(--display);
+  font-size: clamp(36px, 4vw, 58px);
+  font-weight: 400;
+  line-height: 0.98;
+}
+
+.article-card p,
+.feed-row p {
+  margin: 0 0 12px;
+  font-family: var(--serif);
+  font-size: 15px;
+}
+
+.feed-row {
+  display: grid;
+  grid-template-columns: 170px minmax(260px, 0.44fr) minmax(260px, 1fr) 140px;
+  gap: 20px;
+  align-items: start;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.feed-row:last-child {
+  border-bottom: 0;
+}
+
+.feed-row time {
+  color: var(--muted);
   font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
-.bottom-dock a {
-  color: var(--canvas);
-  text-decoration: none;
+.channel-stack {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
 }
 
-.bottom-dock a:hover {
-  color: var(--canvas);
-  text-decoration: underline;
+.channel-block {
+  padding: 0 20px;
+  border-right: 1px solid var(--hairline);
 }
 
-.bottom-dock-links {
-  display: flex;
-  gap: 18px;
-  align-items: center;
+.channel-block:first-child {
+  padding-left: 0;
+}
+
+.channel-block:last-child {
+  padding-right: 0;
+  border-right: 0;
+}
+
+.channel-block h2 {
+  margin-top: 0;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--ink);
+  font-size: 34px;
+}
+
+.channel-block article {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--hairline);
+  font-size: 20px;
 }
 
 .button,
@@ -883,7 +1006,11 @@ input[type="file"] {
   .news-index,
   .signal-grid,
   .tool-grid,
-  .admin-grid {
+  .admin-grid,
+  .today-grid,
+  .feed-row,
+  .channel-stack,
+  .wired-section-header {
     grid-template-columns: 1fr;
   }
 
@@ -909,18 +1036,15 @@ input[type="file"] {
     border-right: 0;
     padding-left: 0;
   }
-  .bottom-dock {
-    grid-template-columns: 1fr;
-    gap: 4px;
-    padding: 8px 16px;
-  }
-  .bottom-dock-links {
-    overflow-x: auto;
+  .article-card,
+  .channel-block {
+    border-right: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
 @media (max-width: 600px) {
-  body { padding-bottom: 74px; }
   .brand { font-size: 50px; }
   h1,
   .article h1 {

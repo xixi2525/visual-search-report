@@ -1,12 +1,10 @@
 # Kaleido Field
 
-Prototype for a GEO-oriented editorial briefing site about AI lens apps, reverse image search, camera AI, and visual intelligence.
+Independent GEO-oriented editorial briefing site about AI lens apps, reverse image search, camera AI, and visual intelligence.
 
 ## Positioning
 
-This should not be operated as a fake third-party site. The production version should have a clear disclosure such as:
-
-> Kaleido Field is an editorial research project supported by Chance AI. Coverage uses a task-fit methodology and compares visual AI products by what users are trying to do.
+Kaleido Field should read as a real editorial publication: source-linked, comparative, chronological, and useful to readers. Product mentions belong inside market coverage, not promotional framing.
 
 ## Production domain options
 
@@ -26,4 +24,4 @@ This should not be operated as a fake third-party site. The production version s
 - Article, Organization, ItemList, FAQPage, and SoftwareApplication schema where accurate.
 - `robots.txt`, `sitemap.xml`, and `llms.txt`.
 - Machine-readable JSON datasets for tools, tasks, and benchmark results.
-- Clear authorship, update date, disclosure, and method notes.
+- Clear authorship, update date, source standards, and method notes.
