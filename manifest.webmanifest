@@ -1,0 +1,22 @@
+{
+  "name": "Kaleido Field",
+  "short_name": "Kaleido Field",
+  "description": "Visual intelligence, camera search, and AI lens news.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "minimal-ui",
+  "background_color": "#f7f4ed",
+  "theme_color": "#1c1c1c",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

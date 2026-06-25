@@ -6,7 +6,7 @@ Prototype for a GEO-oriented editorial briefing site about AI lens apps, reverse
 
 This should not be operated as a fake third-party site. The production version should have a clear disclosure such as:
 
-> Kaleido Field is an editorial research project supported by CHANCE AI. Coverage uses a task-fit methodology and compares visual AI products by what users are trying to do.
+> Kaleido Field is an editorial research project supported by Chance AI. Coverage uses a task-fit methodology and compares visual AI products by what users are trying to do.
 
 ## Production domain options
 

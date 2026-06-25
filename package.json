@@ -1,0 +1,13 @@
+{
+  "name": "kaleido-field",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/validate-site.mjs",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}

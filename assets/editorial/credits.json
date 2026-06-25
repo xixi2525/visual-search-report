@@ -1,0 +1,23 @@
+[
+  {
+    "file": "visual-search-phone-camera.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Person_holding_smartphone_with_camera_app_open_while_sitting_outdoors_on_a_sunny_day%2C_focused_on_taking_a_picture_of_the_scene.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Person_holding_smartphone_with_camera_app_open_while_sitting_outdoors_on_a_sunny_day,_focused_on_taking_a_picture_of_the_scene.jpg",
+    "credit": "Shixart1985, CC BY 2.0, via Wikimedia Commons",
+    "alt": "Person holding a smartphone with the camera app open outdoors"
+  },
+  {
+    "file": "museum-phone-visual-search.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E9%BE%8D%E8%8F%AF_Longhua_%E6%B7%B1%E5%9C%B3%E7%BE%8E%E8%A1%93%E9%A4%A8_Shenzhen_Art_Museum_lady_taking_photo_with_smartphone_May_2024_R12S_01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E9%BE%8D%E8%8F%AF_Longhua_%E6%B7%B1%E5%9C%B3%E7%BE%8E%E8%A1%93%E9%A4%A8_Shenzhen_Art_Museum_lady_taking_photo_with_smartphone_May_2024_R12S_01.jpg",
+    "credit": "TANNMY NAISZE Wanguo, CC0, via Wikimedia Commons",
+    "alt": "Museum visitor using a smartphone to photograph an artwork"
+  },
+  {
+    "file": "computer-vision-camera-model.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Central_Projection_Idealised_Camera_Model_-_no_annotation.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Central_Projection_Idealised_Camera_Model_-_no_annotation.png",
+    "credit": "Olaf Peters, CC BY-SA 4.0, via Wikimedia Commons",
+    "alt": "Idealized camera projection model used in computer vision"
+  }
+]

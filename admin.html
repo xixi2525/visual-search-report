@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kaleido Field Admin</title>
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="site-header">
+    <a class="brand-link" href="/"><span class="brand-lockup"><img class="brand-mark" src="/favicon.svg" alt="" aria-hidden="true"><span>Kaleido Field</span></span></a>
+    <nav aria-label="Admin navigation">
+      <a href="/">Site</a>
+      <a href="/sitemap.xml">Sitemap</a>
+      <a href="/llms.txt">LLMs</a>
+    </nav>
+  </div>
+
+  <main class="admin-shell">
+    <p class="label">Private editor</p>
+    <h1>Admin Desk</h1>
+    <p class="standfirst">Edit index pages, article HTML, and upload illustration files. Changes are protected by admin login and should be reviewed on the live URL after saving.</p>
+
+    <div class="brief-box">
+      <strong>Durability note</strong>
+      This lightweight editor writes to the running Railway service filesystem. Use it for quick fixes and copy important changes back into the project files before redeploying.
+    </div>
+
+    <section class="admin-grid">
+      <aside class="admin-list">
+        <h2>Articles</h2>
+        <div id="articleList">Loading...</div>
+      </aside>
+
+      <section class="editor-panel">
+        <label class="label" for="pathInput">Editable file</label>
+        <input id="pathInput" type="text" placeholder="briefings/example.html">
+        <div class="admin-actions">
+          <button class="primary" id="saveButton" type="button">Save</button>
+          <a id="previewLink" href="/" target="_blank" rel="noopener">Preview</a>
+          <button id="reloadButton" type="button">Reload</button>
+        </div>
+        <textarea id="editor" spellcheck="false" aria-label="HTML editor"></textarea>
+
+        <h2>Illustrations</h2>
+        <p>Upload a PNG, JPG, SVG, or WebP file. The returned path can be pasted into an article image tag.</p>
+        <input id="imageInput" type="file" accept="image/png,image/jpeg,image/svg+xml,image/webp">
+        <div class="admin-actions">
+          <button id="uploadButton" type="button">Upload image</button>
+        </div>
+        <p id="status" class="caption"></p>
+      </section>
+    </section>
+  </main>
+
+  <script>
+    const list = document.getElementById("articleList");
+    const editor = document.getElementById("editor");
+    const pathInput = document.getElementById("pathInput");
+    const previewLink = document.getElementById("previewLink");
+    const status = document.getElementById("status");
+
+    function pageUrl(path) {
+      if (path === "index.html") return "/";
+      return `/${path.replace(/\.html$/, "")}`;
+    }
+
+    async function loadArticles() {
+      const response = await fetch("/api/admin/articles");
+      const data = await response.json();
+      list.innerHTML = "";
+      data.articles.forEach((article) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.textContent = `${article.title} (${article.path})`;
+        button.addEventListener("click", () => loadArticle(article.path));
+        list.appendChild(button);
+      });
+      if (data.articles[0]) loadArticle(data.articles[0].path);
+    }
+
+    async function loadArticle(path) {
+      const response = await fetch(`/api/admin/article?path=${encodeURIComponent(path)}`);
+      const data = await response.json();
+      pathInput.value = data.path;
+      editor.value = data.content;
+      previewLink.href = pageUrl(data.path);
+      status.textContent = `Loaded ${data.path}`;
+    }
+
+    async function saveArticle() {
+      const response = await fetch("/api/admin/article", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ path: pathInput.value, content: editor.value })
+      });
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.error || "Save failed");
+      previewLink.href = pageUrl(pathInput.value);
+      status.textContent = `Saved ${data.path}`;
+      await loadArticles();
+    }
+
+    async function uploadImage() {
+      const file = document.getElementById("imageInput").files[0];
+      if (!file) return;
+      const dataUrl = await new Promise((resolve) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.readAsDataURL(file);
+      });
+      const response = await fetch("/api/admin/upload", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ filename: file.name, dataUrl })
+      });
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.error || "Upload failed");
+      status.textContent = `Uploaded: ${data.url}`;
+    }
+
+    document.getElementById("saveButton").addEventListener("click", () => saveArticle().catch((error) => status.textContent = error.message));
+    document.getElementById("reloadButton").addEventListener("click", () => loadArticle(pathInput.value).catch((error) => status.textContent = error.message));
+    document.getElementById("uploadButton").addEventListener("click", () => uploadImage().catch((error) => status.textContent = error.message));
+    loadArticles().catch((error) => status.textContent = error.message);
+  </script>
+</body>
+</html>
