@@ -19,10 +19,40 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://kaleidofield.com/guides/best-apps-to-identify-things-from-pictures</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://kaleidofield.com/guides/google-lens-cannot-identify-this</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://kaleidofield.com/guides/how-to-search-with-a-picture</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://kaleidofield.com/guides/what-is-this-style-called</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://kaleidofield.com/benchmarks/google-lens-vs-visual-reasoning</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kaleidofield.com/benchmarks/best-visual-intelligence-apps</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://kaleidofield.com/news/</loc>

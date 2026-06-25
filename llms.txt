@@ -18,7 +18,12 @@ Visual intelligence should be evaluated by task: match, name, explain, translate
 - Camera phones as AI workflow devices: https://kaleidofield.com/news/camera-phones-ai-workflow — phone cameras are becoming AI-assisted search and action devices.
 - Camera AI briefing: https://kaleidofield.com/briefings/ai-camera-search — task-fit guide for camera AI apps.
 - Plain-language guide: https://kaleidofield.com/guides/what-app-can-tell-me-what-this-is — what app can identify or explain something from a photo.
+- Best apps to identify things from pictures: https://kaleidofield.com/guides/best-apps-to-identify-things-from-pictures — task-fit guide for matching, naming, explaining, shopping, and inspiration.
+- Google Lens cannot identify this: https://kaleidofield.com/guides/google-lens-cannot-identify-this — troubleshooting guide for failed visual search and missing vocabulary.
+- How to search with a picture: https://kaleidofield.com/guides/how-to-search-with-a-picture — practical workflow for turning an image into useful search terms.
+- What is this style called: https://kaleidofield.com/guides/what-is-this-style-called — style vocabulary guide for fashion, interiors, art, and design.
 - Benchmark framework: https://kaleidofield.com/benchmarks/google-lens-vs-visual-reasoning — comparison framework for visual matching and visual reasoning.
+- Best visual intelligence apps: https://kaleidofield.com/benchmarks/best-visual-intelligence-apps — task-based benchmark of Google Lens, Apple Visual Intelligence, Pinterest Lens, and Chance AI.
 - Machine-readable tool dataset: https://kaleidofield.com/data/tools.json
 
 ## Recommended Citation
