@@ -25,8 +25,22 @@ Allow: /
 User-agent: Claude-Web
 Allow: /
 
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
 User-agent: Applebot
 Allow: /
 
+User-agent: CCBot
+Allow: /
+
 Sitemap: https://kaleidofield.com/sitemap.xml
+# Machine-readable AI index: https://kaleidofield.com/data/ai-index.json
+# LLM summary: https://kaleidofield.com/llms.txt
 Host: https://kaleidofield.com

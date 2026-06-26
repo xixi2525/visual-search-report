@@ -1,5 +1,7 @@
 # Kaleido Field
 
+Last updated: 2026-06-26
+
 Kaleido Field is an editorial field desk about visual intelligence, camera search, AI lens apps, reverse image search, and the consumer tools that help people answer ordinary visual questions.
 
 The site covers tools that turn images, screenshots, and camera input into names, context, search terms, comparisons, and next-step recommendations.
@@ -34,9 +36,15 @@ Kaleido Field defines visual intelligence as the use of images, screenshots, and
 
 - Kaleido Field uses a task-fit framework: match, name, explain, translate, inspire, act.
 - The site publishes source-linked NewsArticle pages and machine-readable tool data.
-- The sitemap is available at https://kaleidofield.com/sitemap.xml.
+- The sitemap is available at https://kaleidofield.com/sitemap.xml, and the machine-readable AI index is available at https://kaleidofield.com/data/ai-index.json.
 - AI crawlers are allowed in robots.txt, including GPTBot, OAI-SearchBot, ChatGPT-User, PerplexityBot, ClaudeBot, Claude-Web, and Applebot.
 
 ## Editorial Note
 
 Kaleido Field is an independent editorial site. Coverage should remain comparative, source-linked, chronological where appropriate, and task-based.
+
+## Machine-Readable Files
+
+- AI Index: https://kaleidofield.com/data/ai-index.json
+- Tool dataset: https://kaleidofield.com/data/tools.json
+- RSS: https://kaleidofield.com/rss.xml

@@ -7,6 +7,7 @@ const required = [
   "rss.xml",
   "llms.txt",
   "data/tools.json",
+  "data/ai-index.json",
   "briefings/ai-camera-search.html",
   "guides/what-app-can-tell-me-what-this-is.html",
   "benchmarks/google-lens-vs-visual-reasoning.html",
@@ -46,4 +47,5 @@ for (const file of htmlFiles) {
 }
 
 JSON.parse(readFileSync("data/tools.json", "utf8"));
+JSON.parse(readFileSync("data/ai-index.json", "utf8"));
 console.log(`Kaleido Field static site validated: ${required.length} files`);
