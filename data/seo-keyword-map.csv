@@ -33,3 +33,8 @@ picture identifier app,comparison,BOFU,https://kaleidofield.com/guides/best-apps
 reverse image search alternatives,comparison,BOFU,https://kaleidofield.com/benchmarks/google-lens-vs-visual-reasoning,unknown,unknown,dataset_view,tracking,Reverse image search adjacent.
 visual intelligence news,category,TOFU,https://kaleidofield.com/news/,unknown,unknown,news_index_read,tracking,News hub query.
 visual AI news,category,TOFU,https://kaleidofield.com/news/,unknown,unknown,news_index_read,tracking,News hub query.
+Apple Visual Intelligence screen search,news,TOFU,https://kaleidofield.com/news/apple-visual-intelligence-becomes-screen-layer,unknown,unknown,news_read,tracking,Apple visual intelligence screen-layer entity page.
+Google AI Mode visual search,news,TOFU,https://kaleidofield.com/news/google-ai-mode-pushes-visual-search-toward-tasks,unknown,unknown,news_read,tracking,Google visual search task-oriented query.
+Pinterest visual shopping search,news,TOFU,https://kaleidofield.com/news/pinterest-visual-shopping-becomes-ai-search,unknown,unknown,news_read,tracking,Visual shopping and Pinterest Lens query.
+AI glasses camera search,news,MOFU,https://kaleidofield.com/news/ai-glasses-make-camera-search-wearable,unknown,unknown,news_read,tracking,Wearable camera search category query.
+visual search provenance,news,MOFU,https://kaleidofield.com/news/visual-search-needs-provenance-as-ai-images-improve,unknown,unknown,news_read,tracking,Trust layer and image provenance query.

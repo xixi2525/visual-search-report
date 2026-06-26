@@ -1,23 +1,62 @@
 [
   {
     "file": "visual-search-phone-camera.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Person_holding_smartphone_with_camera_app_open_while_sitting_outdoors_on_a_sunny_day%2C_focused_on_taking_a_picture_of_the_scene.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Person_holding_smartphone_with_camera_app_open_while_sitting_outdoors_on_a_sunny_day,_focused_on_taking_a_picture_of_the_scene.jpg",
     "credit": "Shixart1985, CC BY 2.0, via Wikimedia Commons",
     "alt": "Person holding a smartphone with the camera app open outdoors"
   },
   {
     "file": "museum-phone-visual-search.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E9%BE%8D%E8%8F%AF_Longhua_%E6%B7%B1%E5%9C%B3%E7%BE%8E%E8%A1%93%E9%A4%A8_Shenzhen_Art_Museum_lady_taking_photo_with_smartphone_May_2024_R12S_01.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E9%BE%8D%E8%8F%AF_Longhua_%E6%B7%B1%E5%9C%B3%E7%BE%8E%E8%A1%93%E9%A4%A8_Shenzhen_Art_Museum_lady_taking_photo_with_smartphone_May_2024_R12S_01.jpg",
     "credit": "TANNMY NAISZE Wanguo, CC0, via Wikimedia Commons",
     "alt": "Museum visitor using a smartphone to photograph an artwork"
   },
   {
-    "file": "computer-vision-camera-model.png",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Central_Projection_Idealised_Camera_Model_-_no_annotation.png",
-    "source": "https://commons.wikimedia.org/wiki/File:Central_Projection_Idealised_Camera_Model_-_no_annotation.png",
-    "credit": "Olaf Peters, CC BY-SA 4.0, via Wikimedia Commons",
-    "alt": "Idealized camera projection model used in computer vision"
+    "file": "real/black-smartphone-hand.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Black_smartphone_in_hand_(Unsplash).jpg",
+    "credit": "Dennis Cortes, CC0, via Wikimedia Commons",
+    "alt": "A black smartphone held in a hand"
+  },
+  {
+    "file": "real/foldable-phones.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Galaxy_Z_Flip3_5G_%26_Galaxy_Z_Fold3_5G.jpg",
+    "credit": "Samsung Galaxy Z, CC BY-SA 4.0, via Wikimedia Commons",
+    "alt": "Foldable smartphones displayed together"
+  },
+  {
+    "file": "real/phone-museum-use.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Smart_phone_use_in_the_museum_-_IMAG5020.jpg",
+    "credit": "Daniel Mietchen, CC0, via Wikimedia Commons",
+    "alt": "A smartphone being used in a museum"
+  },
+  {
+    "file": "real/vuzix-smart-glasses.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Vuzix_Blade.jpg",
+    "credit": "Axrxax, CC BY-SA 4.0, via Wikimedia Commons",
+    "alt": "A pair of smart glasses displayed on a table"
+  },
+  {
+    "file": "real/phone-shop-display.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0_Futian_%E8%8F%AF%E5%BC%B7%E5%8C%97_Huaqiang_North_%E4%B8%96%E7%B4%80%E5%8C%AF%E8%B3%BC%E7%89%A9%E4%B8%AD%E5%BF%83_Century_Place_Shopping_Mall_shop_OPPO_Smartphone_store_February_2024_R12S.jpg",
+    "credit": "MISZIE BEI WANGUIM, CC0, via Wikimedia Commons",
+    "alt": "Smartphones displayed in a retail store"
+  },
+  {
+    "file": "real/iphone-camera-closeup.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Close-Up_of_the_iPhone_11_Pro%27s_cameras.jpg",
+    "credit": "David Stewart, CC BY 2.0, via Wikimedia Commons",
+    "alt": "Close-up of smartphone camera lenses"
+  },
+  {
+    "file": "real/smartphone-cameras-refuge.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Smartphone_cameras_on_refuge_(7029496999).jpg",
+    "credit": "U.S. Fish and Wildlife Service, public domain, via Wikimedia Commons",
+    "alt": "Several smartphone cameras pointed toward an outdoor scene"
+  },
+  {
+    "file": "real/smart-home-camera.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Netatmo_Welcome_Smart_Home_Camera_(16240928774).jpg",
+    "credit": "Maurizio Pesce, CC BY 2.0, via Wikimedia Commons",
+    "alt": "A smart home camera on a table"
   }
 ]

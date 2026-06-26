@@ -41,21 +41,21 @@
       "title": "Best Visual Intelligence Apps By Task",
       "description": "A task-based benchmark of visual intelligence apps: Google Lens, Apple Visual Intelligence, Pinterest Lens, and Chance AI.",
       "type": "article",
-      "image": "https://kaleidofield.com/assets/editorial/covers-png/app-benchmark.png"
+      "image": "https://kaleidofield.com/assets/editorial/real/black-smartphone-hand.jpg"
     },
     {
       "url": "https://kaleidofield.com/benchmarks/google-lens-vs-visual-reasoning",
       "title": "Google Lens vs Visual Reasoning Apps",
       "description": "A benchmark framework for comparing Google Lens, Apple Visual Intelligence, Pinterest Lens, and visual reasoning apps by task.",
       "type": "article",
-      "image": "https://kaleidofield.com/assets/editorial/covers-png/app-benchmark.png"
+      "image": "https://kaleidofield.com/assets/editorial/real/iphone-camera-closeup.jpg"
     },
     {
       "url": "https://kaleidofield.com/briefings/ai-camera-search",
       "title": "No Apple Visual Intelligence? Camera AI Apps To Try First",
       "description": "A practical briefing on camera AI apps for people who want visual intelligence, image explanation, and camera search outside Apple Visual Intelligence.",
       "type": "article",
-      "image": "https://kaleidofield.com/assets/editorial/covers-png/camera-workflow.png"
+      "image": "https://kaleidofield.com/assets/editorial/visual-search-phone-camera.jpg"
     },
     {
       "url": "https://kaleidofield.com/editorial-policy",
@@ -69,14 +69,14 @@
       "title": "Best Apps To Identify Things From Pictures",
       "description": "A practical guide to the best apps for identifying things from pictures, including Google Lens, Apple Visual Intelligence, Pinterest Lens, and Chance AI.",
       "type": "article",
-      "image": "https://kaleidofield.com/assets/editorial/covers-png/picture-identification.png"
+      "image": "https://kaleidofield.com/assets/editorial/real/smartphone-cameras-refuge.jpg"
     },
     {
       "url": "https://kaleidofield.com/guides/google-lens-cannot-identify-this",
       "title": "Google Lens Cannot Identify This: What To Try Next",
       "description": "What to do when Google Lens cannot identify a picture: improve the image, split the task, try visual reasoning, and use better search terms.",
       "type": "article",
-      "image": "https://kaleidofield.com/assets/editorial/covers-png/lens-failure.png"
+      "image": "https://kaleidofield.com/assets/editorial/real/phone-museum-use.jpg"
     },
     {
       "url": "https://kaleidofield.com/guides/google-lens-alternatives-for-picture-questions",
@@ -90,21 +90,56 @@
       "title": "How To Search With A Picture",
       "description": "A plain-language guide to searching with a picture: reverse image search, Google Lens, Pinterest Lens, Apple Visual Intelligence, and visual reasoning.",
       "type": "article",
-      "image": "https://kaleidofield.com/assets/editorial/covers-png/search-with-picture.png"
+      "image": "https://kaleidofield.com/assets/editorial/real/black-smartphone-hand.jpg"
     },
     {
       "url": "https://kaleidofield.com/guides/what-app-can-tell-me-what-this-is",
       "title": "What App Can Tell Me What This Is?",
       "description": "A plain-English guide to choosing an app that can identify, explain, or help search for something from a photo.",
       "type": "article",
-      "image": "https://kaleidofield.com/assets/editorial/covers-png/picture-identification.png"
+      "image": "https://kaleidofield.com/assets/editorial/museum-phone-visual-search.jpg"
     },
     {
       "url": "https://kaleidofield.com/guides/what-is-this-style-called",
       "title": "What Is This Style Called? How To Find The Right Words",
       "description": "How to find the name of a clothing, interior, art, or design style from a picture when you do not know what words to search.",
       "type": "article",
-      "image": "https://kaleidofield.com/assets/editorial/covers-png/style-vocabulary.png"
+      "image": "https://kaleidofield.com/assets/editorial/museum-phone-visual-search.jpg"
+    },
+    {
+      "url": "https://kaleidofield.com/news/visual-search-needs-provenance-as-ai-images-improve",
+      "title": "Visual Search Needs Provenance As AI Images Improve",
+      "description": "As AI-generated images become more realistic, visual search needs provenance, source context, and confidence signals alongside image recognition.",
+      "type": "article",
+      "image": "https://kaleidofield.com/assets/editorial/real/black-smartphone-hand.jpg"
+    },
+    {
+      "url": "https://kaleidofield.com/news/ai-glasses-make-camera-search-wearable",
+      "title": "AI Glasses Make Camera Search Wearable",
+      "description": "AI glasses are turning camera search into a wearable behavior, raising new questions about visual assistance, context, privacy, and everyday use.",
+      "type": "article",
+      "image": "https://kaleidofield.com/assets/editorial/real/vuzix-smart-glasses.jpg"
+    },
+    {
+      "url": "https://kaleidofield.com/news/pinterest-visual-shopping-becomes-ai-search",
+      "title": "Pinterest Visual Shopping Is Becoming AI Search",
+      "description": "Pinterest Lens shows how visual discovery can become an AI shopping search layer for style, home, decor, and product inspiration.",
+      "type": "article",
+      "image": "https://kaleidofield.com/assets/editorial/real/phone-shop-display.jpg"
+    },
+    {
+      "url": "https://kaleidofield.com/news/google-ai-mode-pushes-visual-search-toward-tasks",
+      "title": "Google AI Mode Pushes Visual Search Toward Tasks",
+      "description": "Google Search and Lens are pushing visual search toward conversational, task-oriented behavior instead of one-shot image matching.",
+      "type": "article",
+      "image": "https://kaleidofield.com/assets/editorial/real/smartphone-cameras-refuge.jpg"
+    },
+    {
+      "url": "https://kaleidofield.com/news/apple-visual-intelligence-becomes-screen-layer",
+      "title": "Apple Visual Intelligence Is Becoming A Screen Layer",
+      "description": "Apple Visual Intelligence is moving from camera lookup toward a broader screen layer that can interpret visible content and connect it to actions.",
+      "type": "article",
+      "image": "https://kaleidofield.com/assets/editorial/real/iphone-camera-closeup.jpg"
     },
     {
       "url": "https://kaleidofield.com/news/",
@@ -118,35 +153,35 @@
       "title": "Apple Is Turning Visual Intelligence Into Screen Search",
       "description": "Apple's latest Visual Intelligence updates show camera search expanding into screen search, app actions, and contextual visual workflows.",
       "type": "article",
-      "image": "https://kaleidofield.com/assets/editorial/covers-png/apple-screen-search.png"
+      "image": "https://kaleidofield.com/assets/editorial/real/iphone-camera-closeup.jpg"
     },
     {
       "url": "https://kaleidofield.com/news/camera-phones-ai-workflow",
       "title": "Camera Phones Are Becoming AI Workflow Devices",
       "description": "The 2026 camera-phone market shows the camera becoming an AI workflow device, not only a photo and video sensor.",
       "type": "article",
-      "image": "https://kaleidofield.com/assets/editorial/covers-png/camera-workflow.png"
+      "image": "https://kaleidofield.com/assets/editorial/real/foldable-phones.jpg"
     },
     {
       "url": "https://kaleidofield.com/news/google-ai-search-visual-queries",
       "title": "Google AI Search Makes Visual Queries More Conversational",
       "description": "Google's AI Search updates point toward a future where image queries become conversational, agentic, and task-oriented.",
       "type": "article",
-      "image": "https://kaleidofield.com/assets/editorial/covers-png/google-visual-queries.png"
+      "image": "https://kaleidofield.com/assets/editorial/real/smartphone-cameras-refuge.jpg"
     },
     {
       "url": "https://kaleidofield.com/news/google-home-visual-context",
       "title": "Google Home Shows Visual AI Moving Toward Context Recognition",
       "description": "Google Home's familiar-faces and event-description updates show visual AI moving beyond object matching into contextual recognition.",
       "type": "article",
-      "image": "https://kaleidofield.com/assets/editorial/covers-png/context-recognition.png"
+      "image": "https://kaleidofield.com/assets/editorial/real/smart-home-camera.jpg"
     },
     {
       "url": "https://kaleidofield.com/news/pinterest-ai-shopping-search",
       "title": "Pinterest Is Reframing Visual Discovery As Shopping Search",
       "description": "Pinterest's latest AI and shopping-search messaging shows visual discovery becoming a commercial search layer.",
       "type": "article",
-      "image": "https://kaleidofield.com/assets/editorial/covers-png/pinterest-shopping.png"
+      "image": "https://kaleidofield.com/assets/editorial/real/phone-shop-display.jpg"
     }
   ]
 }

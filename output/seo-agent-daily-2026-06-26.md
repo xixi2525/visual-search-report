@@ -3,23 +3,23 @@
 ## Page-One Status
 - Google Top 10 keywords: 0 known from local tracker
 - Top 3: unknown without DataForSEO/GSC
-- Sitemap URLs: 22
-- Valid local page checks: 18/18
+- Sitemap URLs: 27
+- Valid local page checks: 23/23
 - Index visibility note: Homepage visible in live site:kaleidofield.com sample; child-page indexation still pending/unknown without Search Console export.
 
 ## Keyword Map
-- Tracked keywords: 34
+- Tracked keywords: 39
 - Mapping rule: every keyword is bound to exactly one primary landing page in data/seo-keyword-map.csv.
 
 ## GEO / AI Search Readiness
 - robots.txt allows AI crawlers: PASS
 - llms.txt exists: PASS
-- AI index pages: 18
+- AI index pages: 23
 - Tool dataset entries: 5
 
 ## CTA / Conversion Layer
 - Goal: move readers from article pages to benchmark, tool dataset, guide cluster, RSS, or AI-readable index.
-- Article pages with CTA block: 15
+- Article pages with CTA block: 20
 
 ## Failed Checks
 - None
