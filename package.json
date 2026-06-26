@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/validate-site.mjs",
+    "build": "node scripts/validate-site.mjs && node scripts/seo_agent_audit.mjs",
+    "seo:audit": "node scripts/seo_agent_audit.mjs",
     "start": "node server.js"
   },
   "devDependencies": {

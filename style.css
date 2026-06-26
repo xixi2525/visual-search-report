@@ -782,6 +782,37 @@ th {
 
 .article .answer-block p { margin-bottom: 0; }
 
+.convert-block {
+  margin: 34px 0 0;
+  padding: 18px 20px;
+  border-top: 3px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+  background: var(--canvas-soft);
+  font-family: var(--sans);
+}
+
+.convert-block strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--ink);
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.convert-block p {
+  margin: 0 0 12px;
+  color: var(--body);
+  font-family: var(--serif);
+  font-size: 17px;
+}
+
+.convert-block a {
+  color: var(--ink);
+  font-weight: 800;
+  text-decoration-thickness: 2px;
+}
+
 .site-footer,
 footer {
   background: var(--ink);

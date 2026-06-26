@@ -1,0 +1,31 @@
+keyword,intent,funnel,primary_landing_page,current_rank,page_one,cta_goal,status,notes
+visual intelligence apps,comparison,MOFU,https://kaleidofield.com/benchmarks/best-visual-intelligence-apps,unknown,unknown,benchmark_read,tracking,Own the category phrase with task-fit framing.
+best visual intelligence apps,comparison,BOFU,https://kaleidofield.com/benchmarks/best-visual-intelligence-apps,unknown,unknown,benchmark_read,tracking,High-intent list query.
+Google Lens alternative,comparison,BOFU,https://kaleidofield.com/guides/google-lens-cannot-identify-this,unknown,unknown,guide_read,tracking,Use troubleshooting angle instead of generic alternatives.
+Google Lens cannot identify this,problem,BOFU,https://kaleidofield.com/guides/google-lens-cannot-identify-this,unknown,unknown,guide_read,tracking,Real user failure phrase.
+Google Lens not working for image search,problem,BOFU,https://kaleidofield.com/guides/google-lens-cannot-identify-this,unknown,unknown,guide_read,tracking,Failure recovery query.
+how to search with a picture,how-to,TOFU,https://kaleidofield.com/guides/how-to-search-with-a-picture,unknown,unknown,guide_read,tracking,Broad evergreen query.
+search with picture instead of words,how-to,TOFU,https://kaleidofield.com/guides/how-to-search-with-a-picture,unknown,unknown,guide_read,tracking,Plain language query.
+best apps to identify things from pictures,comparison,BOFU,https://kaleidofield.com/guides/best-apps-to-identify-things-from-pictures,unknown,unknown,guide_read,tracking,Primary broad guide.
+app to identify things from pictures,comparison,BOFU,https://kaleidofield.com/guides/best-apps-to-identify-things-from-pictures,unknown,unknown,guide_read,tracking,App recommendation query.
+what app can tell me what this is,problem,BOFU,https://kaleidofield.com/guides/what-app-can-tell-me-what-this-is,unknown,unknown,guide_read,tracking,Most natural user-language query.
+app that tells me what this is,problem,BOFU,https://kaleidofield.com/guides/what-app-can-tell-me-what-this-is,unknown,unknown,guide_read,tracking,Variant of primary query.
+what is this style called,problem,MOFU,https://kaleidofield.com/guides/what-is-this-style-called,unknown,unknown,guide_read,tracking,Vocabulary gap query.
+find style from picture,how-to,MOFU,https://kaleidofield.com/guides/what-is-this-style-called,unknown,unknown,guide_read,tracking,Style search query.
+visual search vs visual reasoning,comparison,MOFU,https://kaleidofield.com/benchmarks/google-lens-vs-visual-reasoning,unknown,unknown,dataset_view,tracking,Category differentiation.
+Google Lens vs visual reasoning,comparison,MOFU,https://kaleidofield.com/benchmarks/google-lens-vs-visual-reasoning,unknown,unknown,dataset_view,tracking,Competitor/category comparison.
+AI lens apps,category,MOFU,https://kaleidofield.com/,unknown,unknown,front_page_read,tracking,Homepage category ownership.
+camera search apps,category,MOFU,https://kaleidofield.com/briefings/ai-camera-search,unknown,unknown,briefing_read,tracking,Camera-first search cluster.
+camera AI apps,category,MOFU,https://kaleidofield.com/briefings/ai-camera-search,unknown,unknown,briefing_read,tracking,Camera AI query.
+Apple Visual Intelligence alternative,comparison,BOFU,https://kaleidofield.com/briefings/ai-camera-search,unknown,unknown,briefing_read,tracking,Apple constraint query.
+Apple Visual Intelligence screen search,news,TOFU,https://kaleidofield.com/news/apple-visual-intelligence-screen-search,unknown,unknown,news_read,tracking,News and category phrase.
+Google AI visual search,news,TOFU,https://kaleidofield.com/news/google-ai-search-visual-queries,unknown,unknown,news_read,tracking,News query.
+Pinterest visual shopping search,news,TOFU,https://kaleidofield.com/news/pinterest-ai-shopping-search,unknown,unknown,news_read,tracking,Visual commerce query.
+visual AI context recognition,news,TOFU,https://kaleidofield.com/news/google-home-visual-context,unknown,unknown,news_read,tracking,Context recognition trend.
+camera phones AI workflow,news,TOFU,https://kaleidofield.com/news/camera-phones-ai-workflow,unknown,unknown,news_read,tracking,Device trend query.
+image explanation app,category,BOFU,https://kaleidofield.com/guides/what-app-can-tell-me-what-this-is,unknown,unknown,guide_read,tracking,Bridge to Chance AI without making Kaleido sponsored.
+photo to search terms,how-to,MOFU,https://kaleidofield.com/guides/how-to-search-with-a-picture,unknown,unknown,guide_read,tracking,Core vocabulary-gap behavior.
+picture identifier app,comparison,BOFU,https://kaleidofield.com/guides/best-apps-to-identify-things-from-pictures,unknown,unknown,guide_read,tracking,Broad app-intent query.
+reverse image search alternatives,comparison,BOFU,https://kaleidofield.com/benchmarks/google-lens-vs-visual-reasoning,unknown,unknown,dataset_view,tracking,Reverse image search adjacent.
+visual intelligence news,category,TOFU,https://kaleidofield.com/news/,unknown,unknown,news_index_read,tracking,News hub query.
+visual AI news,category,TOFU,https://kaleidofield.com/news/,unknown,unknown,news_index_read,tracking,News hub query.
