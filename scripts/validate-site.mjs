@@ -19,6 +19,7 @@ const required = [
   ,"manifest.webmanifest"
   ,"google00528faa5fc7d2c6.html"
   ,"kaleidofield-indexnow-20260625.txt"
+  ,"guides/google-lens-alternatives-for-picture-questions.html"
   ,"news/apple-visual-intelligence-screen-search.html"
   ,"news/google-ai-search-visual-queries.html"
   ,"news/pinterest-ai-shopping-search.html"

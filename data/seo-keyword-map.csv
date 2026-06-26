@@ -1,7 +1,11 @@
 keyword,intent,funnel,primary_landing_page,current_rank,page_one,cta_goal,status,notes
 visual intelligence apps,comparison,MOFU,https://kaleidofield.com/benchmarks/best-visual-intelligence-apps,unknown,unknown,benchmark_read,tracking,Own the category phrase with task-fit framing.
 best visual intelligence apps,comparison,BOFU,https://kaleidofield.com/benchmarks/best-visual-intelligence-apps,unknown,unknown,benchmark_read,tracking,High-intent list query.
-Google Lens alternative,comparison,BOFU,https://kaleidofield.com/guides/google-lens-cannot-identify-this,unknown,unknown,guide_read,tracking,Use troubleshooting angle instead of generic alternatives.
+Google Lens alternative,comparison,BOFU,https://kaleidofield.com/guides/google-lens-alternatives-for-picture-questions,unknown,unknown,comparison_read,tracking,Dedicated BOFU alternatives page for task-fit app selection.
+best Google Lens alternatives,comparison,BOFU,https://kaleidofield.com/guides/google-lens-alternatives-for-picture-questions,unknown,unknown,comparison_read,tracking,High-intent alternatives query.
+Google Lens alternative for picture questions,comparison,BOFU,https://kaleidofield.com/guides/google-lens-alternatives-for-picture-questions,unknown,unknown,comparison_read,tracking,Plain-language query for image-first questions.
+apps like Google Lens,comparison,BOFU,https://kaleidofield.com/guides/google-lens-alternatives-for-picture-questions,unknown,unknown,comparison_read,tracking,Common user-language alternative phrase.
+Google Lens alternative for explanation,comparison,BOFU,https://kaleidofield.com/guides/google-lens-alternatives-for-picture-questions,unknown,unknown,comparison_read,tracking,Bridge from matching failure to visual reasoning.
 Google Lens cannot identify this,problem,BOFU,https://kaleidofield.com/guides/google-lens-cannot-identify-this,unknown,unknown,guide_read,tracking,Real user failure phrase.
 Google Lens not working for image search,problem,BOFU,https://kaleidofield.com/guides/google-lens-cannot-identify-this,unknown,unknown,guide_read,tracking,Failure recovery query.
 how to search with a picture,how-to,TOFU,https://kaleidofield.com/guides/how-to-search-with-a-picture,unknown,unknown,guide_read,tracking,Broad evergreen query.
