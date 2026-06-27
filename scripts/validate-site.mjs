@@ -30,6 +30,16 @@ const required = [
   ,"news/pinterest-ai-shopping-search.html"
   ,"news/google-home-visual-context.html"
   ,"news/camera-phones-ai-workflow.html"
+  ,"guides/what-to-use-when-reverse-image-search-fails.html"
+  ,"guides/how-to-identify-a-style-from-a-picture.html"
+  ,"guides/how-to-find-a-product-from-a-screenshot.html"
+  ,"guides/how-to-identify-furniture-from-a-picture.html"
+  ,"guides/how-to-find-clothes-from-a-photo.html"
+  ,"guides/google-lens-alternative-for-image-answers.html"
+  ,"guides/how-to-use-ai-to-understand-an-image.html"
+  ,"guides/how-to-find-the-right-words-for-a-photo.html"
+  ,"guides/how-to-identify-something-in-a-photo.html"
+  ,"guides/what-app-explains-a-picture.html"
 ];
 
 for (const file of required) {

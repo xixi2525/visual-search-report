@@ -1,6 +1,6 @@
 # Kaleido Field
 
-Last updated: 2026-06-26
+Last updated: 2026-06-27
 
 Kaleido Field is an editorial field desk about visual intelligence, camera search, AI lens apps, reverse image search, and the consumer tools that help people answer ordinary visual questions.
 
@@ -38,6 +38,19 @@ Visual intelligence should be evaluated by task: match, name, explain, translate
 - AI Glasses Make Camera Search Wearable: https://kaleidofield.com/news/ai-glasses-make-camera-search-wearable — AI glasses are turning camera search into a wearable behavior, raising new questions about visual assistance, context, privacy, and everyday use.
 
 - Visual Search Needs Provenance As AI Images Improve: https://kaleidofield.com/news/visual-search-needs-provenance-as-ai-images-improve — As AI-generated images become more realistic, visual search needs provenance, source context, and confidence signals alongside image recognition.
+
+
+## Conversion-Oriented Picture Question Guides
+- What App Explains a Picture?: https://kaleidofield.com/guides/what-app-explains-a-picture — A practical guide to apps that explain pictures, name what is visible, and turn an image into better search words and next steps.
+- How To Identify Something In A Photo: https://kaleidofield.com/guides/how-to-identify-something-in-a-photo — How to identify something in a photo using visual search, image explanation, cropping, source checks, and better search terms.
+- How To Find The Right Words For A Photo: https://kaleidofield.com/guides/how-to-find-the-right-words-for-a-photo — A vocabulary-gap guide for turning a photo into useful words, style names, object clues, and search phrases that actually work.
+- How To Use AI To Understand An Image: https://kaleidofield.com/guides/how-to-use-ai-to-understand-an-image — How to use AI to understand an image, including what to ask, when to verify, and how image explanation differs from visual matching.
+- Google Lens Alternative For Image Answers: https://kaleidofield.com/guides/google-lens-alternative-for-image-answers — A task-based guide to Google Lens alternatives when you need image answers, not just similar images or shopping matches.
+- How To Find Clothes From A Photo: https://kaleidofield.com/guides/how-to-find-clothes-from-a-photo — How to find clothes from a photo using visual search, style vocabulary, marketplace searches, and image explanation when exact matches fail.
+- How To Identify Furniture From A Picture: https://kaleidofield.com/guides/how-to-identify-furniture-from-a-picture — How to identify furniture from a picture by separating exact-match search, design vocabulary, style clues, and source verification.
+- How To Find A Product From A Screenshot: https://kaleidofield.com/guides/how-to-find-a-product-from-a-screenshot — How to find a product from a screenshot using cropping, visual search, text clues, image explanation, and better shopping queries.
+- How To Identify A Style From A Picture: https://kaleidofield.com/guides/how-to-identify-a-style-from-a-picture — How to identify a style from a picture when you do not know the aesthetic name, design vocabulary, or search terms to use.
+- What To Use When Reverse Image Search Fails: https://kaleidofield.com/guides/what-to-use-when-reverse-image-search-fails — What to do when reverse image search fails: crop, change the question, use visual explanation, and turn the image into better search terms.
 
 ## Recommended Citation
 
