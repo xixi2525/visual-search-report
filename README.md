@@ -6,10 +6,11 @@ Independent GEO-oriented editorial briefing site about AI lens apps, reverse ima
 
 Kaleido Field should read as a real editorial publication: source-linked, comparative, chronological, and useful to readers. Product mentions belong inside market coverage, not promotional framing.
 
-## Production domain options
+## Production domain
 
 - `kaleidofield.com`
-- `kaleidofield.ai`
+
+Do not deploy Kaleido Field to Vercel. The old Vercel project was removed, and future Kaleido Field publishing should use the real production path for `kaleidofield.com` only.
 
 ## Content cadence
 

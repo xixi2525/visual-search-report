@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 348 72" role="img" aria-labelledby="title desc">
+  <title id="title">Kaleido Field</title>
+  <desc id="desc">Kaleido Field editorial wordmark with an abstract field mark</desc>
+  <rect width="348" height="72" fill="none"/>
+  <g transform="translate(4 8)">
+    <rect x="0" y="0" width="56" height="56" fill="#111111"/>
+    <path d="M28 28 L6 16 L6 5 L28 28Z" fill="#f8f7f2"/>
+    <path d="M28 28 L28 0 L39 0 L28 28Z" fill="#f8f7f2"/>
+    <path d="M28 28 L50 5 L56 5 L56 17 L28 28Z" fill="#f8f7f2"/>
+    <path d="M28 28 L56 28 L56 39 L28 28Z" fill="#f8f7f2"/>
+    <path d="M28 28 L50 56 L38 56 L28 28Z" fill="#f8f7f2"/>
+    <path d="M28 28 L28 56 L17 56 L28 28Z" fill="#f8f7f2"/>
+    <path d="M28 28 L6 51 L0 51 L0 39 L28 28Z" fill="#f8f7f2"/>
+    <path d="M28 28 L0 28 L0 17 L28 28Z" fill="#f8f7f2"/>
+    <rect x="23" y="23" width="10" height="10" fill="#f8f7f2"/>
+  </g>
+  <text x="78" y="45" fill="#111111" font-family="Georgia, 'Times New Roman', serif" font-size="37" font-weight="500" letter-spacing="-0.9">Kaleido Field</text>
+</svg>

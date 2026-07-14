@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">No-text product screenshot test image</title>
+  <desc id="desc">Synthetic product screenshot used for Kaleido Field visual AI task-fit testing.</desc>
+  <rect width="1200" height="720" fill="#f7f7f5"/>
+  <rect x="120" y="78" width="960" height="564" fill="#111"/>
+  <rect x="160" y="118" width="880" height="484" fill="#f0eee8"/>
+  <rect x="228" y="170" width="352" height="352" rx="18" fill="#d9d1c5"/>
+  <path d="M266 480h276l-38 50H304z" fill="#2a2927"/>
+  <path d="M304 218h198l44 206H262z" fill="#1f1e1b"/>
+  <path d="M332 246h138l28 138H303z" fill="#f2eee4"/>
+  <path d="M362 276h86l17 82H344z" fill="#9a8f7f"/>
+  <circle cx="506" cy="450" r="22" fill="#f2eee4"/>
+  <rect x="654" y="182" width="298" height="38" fill="#111"/>
+  <rect x="654" y="250" width="230" height="18" fill="#77746d"/>
+  <rect x="654" y="286" width="288" height="18" fill="#77746d"/>
+  <rect x="654" y="322" width="196" height="18" fill="#77746d"/>
+  <rect x="654" y="412" width="162" height="48" fill="#111"/>
+  <rect x="836" y="412" width="116" height="48" fill="#c9c1b6"/>
+  <rect x="654" y="510" width="298" height="18" fill="#77746d"/>
+  <rect x="654" y="548" width="216" height="18" fill="#77746d"/>
+</svg>

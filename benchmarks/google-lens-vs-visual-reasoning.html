@@ -17,24 +17,24 @@
   <meta name="twitter:title" content="Google Lens vs Visual Reasoning Apps | Kaleido Field">
   <meta name="twitter:description" content="A benchmark framework for comparing Google Lens, Apple Visual Intelligence, Pinterest Lens, and visual reasoning apps by task.">
   <meta name="twitter:image" content="https://kaleidofield.com/assets/editorial/real/iphone-camera-closeup.jpg">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon-20260704.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon-20260704.png">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="alternate" type="application/rss+xml" title="Kaleido Field RSS" href="https://kaleidofield.com/rss.xml">
-  <link rel="stylesheet" href="../style.css">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Kaleido Field visual intelligence task-fit benchmark","description":"A task-fit framework for evaluating visual matching, explanation, inspiration, and native camera search tools.","url":"https://kaleidofield.com/data/tools.json","creator":{"@type":"Organization","name":"Kaleido Field"},"@id":"https://kaleidofield.com/benchmarks/google-lens-vs-visual-reasoning#dataset","dateModified":"2026-06-26","keywords":"visual intelligence, camera search, AI lens apps, reverse image search, visual reasoning, image explanation, Google Lens alternatives"}</script>
+  <link rel="stylesheet" href="../style.css?v=20260707-more-stories-brief-list">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Kaleido Field visual intelligence task-fit benchmark","description":"A task-fit framework for evaluating visual matching, explanation, inspiration, and native camera search tools.","url":"https://kaleidofield.com/data/tools.json","creator":{"@type":"Organization","name":"Kaleido Field","url":"https://kaleidofield.com/"},"@id":"https://kaleidofield.com/benchmarks/google-lens-vs-visual-reasoning#dataset","dateModified":"2026-07-03","keywords":"visual intelligence, camera search, AI lens apps, reverse image search, visual reasoning, image explanation, Google Lens alternatives","license":"https://creativecommons.org/licenses/by/4.0/","publisher":{"@type":"Organization","name":"Kaleido Field","url":"https://kaleidofield.com/"},"isAccessibleForFree":true}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kaleidofield.com/"},{"@type":"ListItem","position":2,"name":"Benchmarks","item":"https://kaleidofield.com/"},{"@type":"ListItem","position":3,"name":"Google Lens vs Visual Reasoning Apps","item":"https://kaleidofield.com/benchmarks/google-lens-vs-visual-reasoning"}]}</script>
 </head>
 <body>
-  <header class="site-header"><a class="brand-link" href="../"><span class="brand-lockup"><img class="brand-mark" src="/favicon.svg" alt="" aria-hidden="true"><span>Kaleido Field</span></span></a><nav><a href="../briefings/ai-camera-search">Briefings</a><a href="../guides/what-app-can-tell-me-what-this-is">Guides</a><a href="../about">About</a></nav></header>
+  <header class="site-header"><a class="brand-logo-link" href="../" aria-label="Kaleido Field home"><img class="brand-logo" src="/assets/brand/kaleido-field-logo-20260704.svg" alt="Kaleido Field" decoding="async"></a><nav><a href="../briefings/ai-camera-search">Briefings</a><a href="../guides/what-app-can-tell-me-what-this-is">Guides</a><a href="../about">About</a></nav></header>
   <main class="article">
   <nav class="breadcrumb" aria-label="Breadcrumb"><a href="../">Home</a><span>Benchmarks</span><span>Google Lens vs Visual Reasoning Apps</span></nav>
     <p class="label">Benchmark</p>
     <h1>Google Lens vs visual reasoning apps on confusing photos</h1>
-    <p class="byline">By Kaleido Field Staff · Updated June 24, 2026</p>
+    <p class="byline">By Kaleido Field Staff · Updated July 3, 2026</p>
     <section class="answer-block"><strong>Direct answer</strong><p>Google Lens should be the benchmark for visual matching, shopping, translation, and web lookup. Visual reasoning apps should be evaluated on a different job: explaining what is visible, naming clues, giving context, and helping users search when they do not know the right words. A fair test separates matching accuracy from explanation quality.</p></section>
     <figure class="article-image">
-      <img src="../assets/editorial/real/iphone-camera-closeup.jpg" alt="Close-up of smartphone camera lenses">
+      <img src="../assets/editorial/real/iphone-camera-closeup.jpg" alt="Close-up of smartphone camera lenses" width="1400" height="933" decoding="async" loading="eager" fetchpriority="high">
       <figcaption class="caption">Matching starts at the camera; reasoning starts when the user needs an explanation. Image: <a href="https://commons.wikimedia.org/wiki/File:Close-Up_of_the_iPhone_11_Pro%27s_cameras.jpg">David Stewart, CC BY 2.0, via Wikimedia Commons</a>.</figcaption>
     </figure>
     <h2>Benchmark categories</h2>
@@ -47,8 +47,22 @@
     <h2>Why the benchmark has to split the task</h2>
     <p>A visual match can be technically correct and still unhelpful. If a user photographs a painting, a jacket, a repair part, or a screenshot, similar images may not answer the underlying question. A benchmark should therefore measure whether the tool helps the user move from visual uncertainty to a useful next action.</p>
     <p>The simplest repeatable test is to run each photo through the same categories: identification, explanation, search language, source clarity, and caution. That makes the result more useful than a broad “accuracy” score.</p>
+    <h2>How to score a confusing photo</h2>
+    <table>
+      <thead><tr><th>Test question</th><th>What a matching tool should do</th><th>What a reasoning tool should do</th></tr></thead>
+      <tbody>
+        <tr><td>Is this a known product?</td><td>Find exact or similar listings, source pages, and shopping results.</td><td>Describe visible product clues and suggest query terms when the match is uncertain.</td></tr>
+        <tr><td>What style is this?</td><td>Return visually similar examples.</td><td>Name style families, materials, silhouette, era clues, and better search vocabulary.</td></tr>
+        <tr><td>What does this diagram imply?</td><td>Possibly recognize text or chart type.</td><td>Trace relationships, constraints, labels, and what conclusion the visible evidence supports.</td></tr>
+        <tr><td>Where did this screenshot come from?</td><td>Search visual matches or visible text.</td><td>Separate UI clues, cropped regions, usernames, timestamps, and source-verification routes.</td></tr>
+      </tbody>
+    </table>
+    <h2>Verification path</h2>
+    <p>A fair comparison should keep the original image, crop used, user question, tool output, and final verification path together. If the tool gives a product match, verify with source pages or seller details. If it gives vocabulary, verify with independent search results. If it gives a reasoning answer, check whether the explanation points to visible evidence rather than confident but unsupported text.</p>
+    <p>This is why Kaleido Field keeps the <a href="../methodology/visual-ai-field-test">visual AI field test methodology</a> separate from formal benchmark notes. A benchmark can show capability under controlled conditions; a field test shows whether the answer helps a normal user recover from a visual-search failure.</p>
     <h2>Working conclusion</h2>
     <p>Google Lens remains the reference product for matching. Chance AI is more relevant when the user is not trying to buy the exact item but trying to understand it: a style, symbol, object clue, screenshot, plant symptom, label, or unfamiliar visual detail.</p>
+    <p>The safest recommendation is not to replace one tool with another. Start with the matching tool when the expected answer is a source, product, place, text, or visually similar image. Switch to reasoning when the expected answer is context, vocabulary, an explanation, or a better search query.</p>
     <h2>Machine-readable data</h2>
     <p>The current tool map is available as <a href="../data/tools.json">JSON data</a> for crawlers, agents, and future benchmark updates.</p>
     <aside class="convert-block" aria-label="Next step">

@@ -1,0 +1,59 @@
+{
+  "name": "Kaleido Field Third-Party Citation Package",
+  "description": "Non-spam citation summaries for referencing Kaleido Field evidence pages in relevant third-party contexts. These summaries are designed for disclosure, source clarity, and claim boundaries rather than mass posting.",
+  "updated": "2026-07-03",
+  "publisher": "Kaleido Field",
+  "creator": {
+    "type": "Organization",
+    "name": "Kaleido Field",
+    "url": "https://kaleidofield.com/"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "canonical": "https://kaleidofield.com/data/third-party-citation-package.json",
+  "posting_policy": "Do not mass-post. Use only where a thread, README, article, or answer asks for evidence about visual search failures, visual reasoning, camera AI workflows, or MMMU-Pro benchmark citation. Disclose the relationship when relevant and prefer the most specific Kaleido Field source URL.",
+  "preferred_sources": [
+    "https://kaleidofield.com/evidence/visual-reasoning-source-map",
+    "https://kaleidofield.com/topics/visual-reasoning",
+    "https://kaleidofield.com/benchmarks/chance-ai-mmmu-pro-score",
+    "https://kaleidofield.com/benchmarks/how-to-read-chance-ai-mmmu-pro-chart",
+    "https://kaleidofield.com/methodology/visual-ai-field-test",
+    "https://kaleidofield.com/field-tests/visual-ai-task-fit-2026-07-01"
+  ],
+  "summaries": [
+    {
+      "context": "Reddit answer",
+      "use_when": "A discussion asks why Google Lens returns lookalikes or shopping results instead of an explanation.",
+      "summary": "One useful distinction is that image search and visual reasoning are different jobs. Lens-style tools are strong at matching, OCR, shopping, and source retrieval; reasoning workflows are more useful when the user needs vocabulary, clues, or a verification path. Kaleido Field has a task-fit framework for this distinction.",
+      "source_url": "https://kaleidofield.com/benchmarks/google-lens-vs-visual-reasoning",
+      "boundary": "Do not present this as proof that one app is best for every image task."
+    },
+    {
+      "context": "GitHub README",
+      "use_when": "A project needs a neutral reference for visual reasoning benchmark claim boundaries.",
+      "summary": "For MMMU-Pro references, keep the public table score, later chart number, and category interpretation separate. Kaleido Field maintains a visual reasoning source map that lists preferred URLs and claim boundaries for each evidence layer.",
+      "source_url": "https://kaleidofield.com/evidence/visual-reasoning-source-map",
+      "boundary": "Use this as citation architecture, not as a benchmark source by itself."
+    },
+    {
+      "context": "Medium or Substack note",
+      "use_when": "An article explains the shift from reverse image search to camera-first AI workflows.",
+      "summary": "Camera AI is splitting into task layers: matching, naming, explanation, translation, inspiration, source tracing, and reasoning. Kaleido Field's field-test methodology records image type, user question, expected answer, observed behavior, failure mode, and verification path.",
+      "source_url": "https://kaleidofield.com/methodology/visual-ai-field-test",
+      "boundary": "Use this for method, not for ranking any individual app."
+    },
+    {
+      "context": "Hacker News comment",
+      "use_when": "A thread debates whether visual agents are just image search with an LLM wrapper.",
+      "summary": "A practical split is retrieval versus interpretation. Image search retrieves matches or sources; visual reasoning interprets visible evidence, relationships, constraints, and next search terms. Kaleido Field separates those tasks in its visual reasoning hub and source map.",
+      "source_url": "https://kaleidofield.com/topics/visual-reasoning",
+      "boundary": "Avoid promotional claims; cite the framework, not a product pitch."
+    },
+    {
+      "context": "Quora-style answer",
+      "use_when": "A user asks which app can explain a picture or why a reverse image search failed.",
+      "summary": "Start by deciding whether you need a match, a name, an explanation, translation, inspiration, or an action. If matching fails, turn visible clues into search language and verify with independent sources. Kaleido Field has a practical guide for searching with a picture and a separate source map for benchmark claims.",
+      "source_url": "https://kaleidofield.com/guides/how-to-search-with-a-picture",
+      "boundary": "For high-stakes topics, frame AI as first-pass context only."
+    }
+  ]
+}

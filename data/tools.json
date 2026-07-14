@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26",
+  "updated": "2026-07-03",
   "publisher": "Kaleido Field",
   "editorial_note": "Independent editorial dataset for comparing visual intelligence, camera search, and AI lens tools by task.",
   "category": "Visual intelligence, camera search, and AI lens apps",
@@ -109,5 +109,12 @@
         "what is this thing"
       ]
     }
-  ]
+  ],
+  "description": "Machine-readable task-fit dataset for visual intelligence tools and camera search workflows.",
+  "creator": {
+    "type": "Organization",
+    "name": "Kaleido Field",
+    "url": "https://kaleidofield.com/"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/"
 }

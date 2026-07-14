@@ -27,10 +27,19 @@ const mimeTypes = {
   ".webmanifest": "application/manifest+json; charset=utf-8"
 };
 
+function baseHeaders(extra = {}) {
+  return {
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    ...extra
+  };
+}
+
 function send(res, status, body, headers = {}) {
   res.writeHead(status, {
     "Cache-Control": status >= 400 ? "no-store" : "public, max-age=300",
-    ...headers
+    ...baseHeaders(headers)
   });
   res.end(body);
 }
@@ -57,9 +66,11 @@ function isAuthorized(req) {
 function requireAdmin(req, res) {
   if (isAuthorized(req)) return true;
   res.writeHead(401, {
-    "WWW-Authenticate": 'Basic realm="Kaleido Field Admin"',
-    "Content-Type": "text/plain; charset=utf-8",
-    "Cache-Control": "no-store"
+    ...baseHeaders({
+      "WWW-Authenticate": 'Basic realm="Kaleido Field Admin"',
+      "Content-Type": "text/plain; charset=utf-8",
+      "Cache-Control": "no-store"
+    })
   });
   res.end(adminPassword ? "Admin login required." : "Admin is disabled until ADMIN_PASSWORD is set.");
   return false;
@@ -109,11 +120,95 @@ async function listHtmlFiles() {
   }));
 }
 
+async function readTitleAndMeta(file) {
+  const full = join(root, file);
+  const html = await readFile(full, "utf8");
+  const info = await stat(full);
+  const title = html.match(/<title>(.*?)<\/title>/i)?.[1]?.replace(/\s+\|\s+Kaleido Field$/i, "") || file;
+  const description = html.match(/<meta\s+name="description"\s+content="([^"]*)"/i)?.[1] || "";
+  const label = html.match(/<p\s+class="label">([\s\S]*?)<\/p>/i)?.[1]?.replace(/<[^>]+>/g, "").trim() || "";
+  const cover = html.match(/<meta\s+property="og:image"\s+content="([^"]*)"/i)?.[1] || html.match(/<img\s+[^>]*src="([^"]*)"/i)?.[1] || "";
+  return { path: file, title, description, label, cover, modified: info.mtime.toISOString() };
+}
+
+async function listFlatHtml(dir) {
+  const fullDir = join(root, dir);
+  if (!existsSync(fullDir)) return [];
+  const entries = await readdir(fullDir, { withFileTypes: true });
+  return entries
+    .filter((entry) => entry.isFile() && entry.name.endsWith(".html") && entry.name !== "index.html")
+    .map((entry) => `${dir}/${entry.name}`);
+}
+
+async function adminSummary() {
+  const groups = {
+    news: await listFlatHtml("news"),
+    guides: await listFlatHtml("guides"),
+    benchmarks: await listFlatHtml("benchmarks"),
+    topics: await listFlatHtml("topics")
+  };
+  const newsMeta = await Promise.all(groups.news.map(readTitleAndMeta));
+  newsMeta.sort((a, b) => b.modified.localeCompare(a.modified));
+  const recentCovers = newsMeta.slice(0, 20).map((item) => ({
+    title: item.title,
+    path: item.path,
+    cover: item.cover,
+    label: item.label,
+    modified: item.modified
+  }));
+  const coverCounts = recentCovers.reduce((acc, item) => {
+    if (!item.cover) return acc;
+    acc[item.cover] = (acc[item.cover] || 0) + 1;
+    return acc;
+  }, {});
+  const repeatedCovers = Object.entries(coverCounts)
+    .filter(([, count]) => count > 1)
+    .map(([cover, count]) => ({ cover, count }));
+  const reportEntries = existsSync(join(root, "output"))
+    ? await readdir(join(root, "output"), { withFileTypes: true })
+    : [];
+  const reports = await Promise.all(reportEntries
+    .filter((entry) => entry.isFile() && entry.name.endsWith(".md"))
+    .map(async (entry) => {
+      const file = `output/${entry.name}`;
+      const info = await stat(join(root, file));
+      return { path: file, title: entry.name, modified: info.mtime.toISOString() };
+    }));
+  reports.sort((a, b) => b.modified.localeCompare(a.modified));
+  return {
+    counts: {
+      news: groups.news.length,
+      guides: groups.guides.length,
+      benchmarks: groups.benchmarks.length,
+      topics: groups.topics.length
+    },
+    latestNews: newsMeta.slice(0, 8),
+    recentCovers,
+    repeatedCovers,
+    latestReports: reports.slice(0, 6),
+    operations: [
+      { label: "Homepage", path: "index.html", url: "/" },
+      { label: "News index", path: "news/index.html", url: "/news/" },
+      { label: "Editorial strategy", path: "EDITORIAL_STRATEGY.md", url: "/EDITORIAL_STRATEGY.md" },
+      { label: "AI index", path: "data/ai-index.json", url: "/data/ai-index.json" },
+      { label: "Citation gap map", path: "data/ai-answer-citation-gap-map.json", url: "/data/ai-answer-citation-gap-map.json" },
+      { label: "Sitemap", path: "sitemap.xml", url: "/sitemap.xml" },
+      { label: "RSS", path: "rss.xml", url: "/rss.xml" },
+      { label: "LLMs", path: "llms.txt", url: "/llms.txt" }
+    ]
+  };
+}
+
 async function handleAdminApi(req, res, url) {
   if (!requireAdmin(req, res)) return;
 
   if (req.method === "GET" && url.pathname === "/api/admin/articles") {
     json(res, 200, { articles: await listHtmlFiles() });
+    return;
+  }
+
+  if (req.method === "GET" && url.pathname === "/api/admin/summary") {
+    json(res, 200, await adminSummary());
     return;
   }
 
@@ -157,9 +252,15 @@ async function handleStatic(req, res, url) {
   if (!full || !existsSync(full)) return send(res, 404, "Not found.", { "Content-Type": "text/plain; charset=utf-8" });
 
   const ext = extname(full);
-  const headers = { "Content-Type": mimeTypes[ext] || "application/octet-stream" };
+  const headers = baseHeaders({ "Content-Type": mimeTypes[ext] || "application/octet-stream" });
   if ([".svg", ".png", ".jpg", ".jpeg", ".webp", ".ico"].includes(ext)) {
-    headers["Cache-Control"] = "public, max-age=604800";
+    headers["Cache-Control"] = "public, max-age=2592000, immutable";
+  } else if ([".css", ".js", ".webmanifest"].includes(ext)) {
+    headers["Cache-Control"] = "public, max-age=86400";
+  } else if ([".json", ".xml", ".txt"].includes(ext)) {
+    headers["Cache-Control"] = "public, max-age=300";
+  } else if (ext === ".html") {
+    headers["Cache-Control"] = "public, max-age=300";
   }
   res.writeHead(200, headers);
   createReadStream(full).pipe(res);

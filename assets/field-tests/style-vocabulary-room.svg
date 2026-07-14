@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Style vocabulary room test image</title>
+  <desc id="desc">Synthetic interior scene used for visual vocabulary task testing.</desc>
+  <rect width="1200" height="720" fill="#eee9df"/>
+  <rect x="0" y="500" width="1200" height="220" fill="#d1c3ad"/>
+  <rect x="108" y="96" width="418" height="286" fill="#f8f7f2" stroke="#111" stroke-width="8"/>
+  <path d="M148 336h338L318 150z" fill="#111"/>
+  <circle cx="786" cy="232" r="74" fill="#111"/>
+  <rect x="740" y="306" width="92" height="18" fill="#111"/>
+  <rect x="230" y="474" width="468" height="74" rx="34" fill="#766b5d"/>
+  <rect x="280" y="374" width="366" height="136" rx="40" fill="#8a7a67"/>
+  <rect x="310" y="524" width="24" height="96" fill="#111"/>
+  <rect x="602" y="524" width="24" height="96" fill="#111"/>
+  <rect x="760" y="420" width="250" height="140" fill="#b9a88c"/>
+  <rect x="782" y="392" width="206" height="36" fill="#111"/>
+  <rect x="808" y="560" width="20" height="74" fill="#111"/>
+  <rect x="942" y="560" width="20" height="74" fill="#111"/>
+  <path d="M872 420c32-76 78-112 140-108-26 54-66 90-140 108z" fill="#3d4c38"/>
+  <path d="M860 420c-18-70-10-122 34-162 22 62 14 110-34 162z" fill="#4f6247"/>
+</svg>

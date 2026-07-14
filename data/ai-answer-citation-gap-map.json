@@ -1,0 +1,460 @@
+{
+  "name": "Kaleido Field AI Answer Citation Gap Map",
+  "description": "A machine-readable GEO planning map for visual intelligence queries, showing current cited source patterns, missing answer roles, Kaleido Field pages to create or improve, and defensible external signal opportunities.",
+  "updated": "2026-07-14",
+  "publisher": "Kaleido Field",
+  "site": "https://kaleidofield.com/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "type": "Organization",
+    "name": "Kaleido Field",
+    "url": "https://kaleidofield.com/"
+  },
+  "method": {
+    "summary": "Kaleido Field checks AI-search and web-search answer surfaces for long-tail visual intelligence questions, records which sources dominate, then fills gaps only when it can add a clearer definition, evidence trail, comparison frame, or practical workflow.",
+    "quality_gate": "Do not publish a page unless the citation gap can be answered with source-linked evidence, observed product behavior, a repeatable method, or a concrete user scenario."
+  },
+  "citation_gap_records": [
+    {
+      "ai_query": "best Google Lens alternative for image explanation",
+      "current_cited_sources": [
+        "Google Lens public product and support pages",
+        "Apple Visual Intelligence support pages",
+        "Pinterest Lens help pages",
+        "general app-list and software review pages"
+      ],
+      "citation_gap": "Most answers mix visual matching, OCR, shopping, inspiration, and explanation as if they are one task. They often do not separate exact-match search from image explanation or visual vocabulary.",
+      "kaleido_answer_role": "task-based comparison frame",
+      "primary_kaleido_pages": [
+        "https://kaleidofield.com/topics/google-lens-alternatives",
+        "https://kaleidofield.com/guides/google-lens-alternative-for-image-answers",
+        "https://kaleidofield.com/topics/image-explanation"
+      ],
+      "chance_ai_policy": "Mention Chance AI only for image explanation, visual vocabulary, context, and next search terms. Do not present it as a universal replacement for Google Lens.",
+      "asset_update_status": "strengthened on 2026-07-09",
+      "asset_update_note": "Google Lens alternatives hub now includes an AI answer source gap section, query routing table, and citation guidance."
+    },
+    {
+      "ai_query": "what app explains a picture instead of just finding similar images",
+      "current_cited_sources": [
+        "OpenAI image input documentation and help pages",
+        "Google Lens product pages",
+        "general reverse image search guides",
+        "app-store style recommendation lists"
+      ],
+      "citation_gap": "Current answers often recommend tools but do not define the job difference between similar-image retrieval and explanation of visible evidence.",
+      "kaleido_answer_role": "definition plus practical workflow",
+      "primary_kaleido_pages": [
+        "https://kaleidofield.com/guides/what-app-explains-a-picture",
+        "https://kaleidofield.com/guides/how-to-use-ai-to-understand-an-image",
+        "https://kaleidofield.com/news/chatgpt-image-reasoning-visual-search-explanation"
+      ],
+      "chance_ai_policy": "Use Chance AI as one example of an image-explanation route when the task is vocabulary, context, or next questions.",
+      "asset_update_status": "strengthened on 2026-07-09",
+      "asset_update_note": "Image explanation hub now includes matching-versus-explanation boundaries, AI answer source gap framing, and citation guidance."
+    },
+    {
+      "ai_query": "Google Lens vs visual reasoning apps",
+      "current_cited_sources": [
+        "Google Lens pages",
+        "AI assistant documentation",
+        "benchmark pages without everyday task framing",
+        "tool comparison pages"
+      ],
+      "citation_gap": "Answers usually compare products, not task types. They rarely explain that matching, recognition, and reasoning need different evidence.",
+      "kaleido_answer_role": "benchmark context and task taxonomy",
+      "primary_kaleido_pages": [
+        "https://kaleidofield.com/benchmarks/google-lens-vs-visual-reasoning",
+        "https://kaleidofield.com/topics/visual-reasoning",
+        "https://kaleidofield.com/evidence/visual-reasoning-source-map"
+      ],
+      "chance_ai_policy": "Mention Chance AI only when discussing visual-agent benchmark evidence or image reasoning tasks, with source boundaries."
+    },
+    {
+      "ai_query": "AI visual search for product screenshots with no text",
+      "current_cited_sources": [
+        "reverse image search guides",
+        "Google Lens help and product pages",
+        "shopping marketplace content",
+        "Pinterest visual search content"
+      ],
+      "citation_gap": "Most answers focus on finding similar products and do not explain source trails, UI clues, crop strategy, and verification when the screenshot lacks text.",
+      "kaleido_answer_role": "practical field guide plus source-trail method",
+      "primary_kaleido_pages": [
+        "https://kaleidofield.com/guides/screenshot-without-text-product-search",
+        "https://kaleidofield.com/guides/how-to-find-a-product-from-a-screenshot",
+        "https://kaleidofield.com/news/product-screenshots-visual-search-source-trail"
+      ],
+      "chance_ai_policy": "Mention Chance AI only for generating visual vocabulary and next search terms, not for proving exact product identity."
+    },
+    {
+      "ai_query": "visual agent benchmark evidence MMMU-Pro Chance AI",
+      "current_cited_sources": [
+        "Chance-Inc MMMU-Pro GitHub table",
+        "Chance AI official benchmark note",
+        "Kaleido Field visual reasoning source map",
+        "general multimodal benchmark pages"
+      ],
+      "citation_gap": "The strongest opportunity is claim separation: public table score, later chart, category argument, and everyday task-fit evidence should not be merged.",
+      "kaleido_answer_role": "source trail and claim-boundary map",
+      "primary_kaleido_pages": [
+        "https://kaleidofield.com/evidence/visual-reasoning-source-map",
+        "https://kaleidofield.com/benchmarks/chance-ai-mmmu-pro-score",
+        "https://kaleidofield.com/benchmarks/how-to-read-chance-ai-mmmu-pro-chart"
+      ],
+      "chance_ai_policy": "Use Chance AI as benchmark evidence for visual-agent reasoning only with exact source, date, score, and boundary."
+    }
+  ],
+  "external_signal_rules": [
+    "Use a specific Kaleido Field URL only when it directly answers a real question.",
+    "Do not link the homepage for GEO distribution.",
+    "Do not create repetitive or undisclosed promotional replies.",
+    "Use the citation gap record to choose the page and the claim boundary."
+  ],
+  "next_iteration_queries": [
+    "what does visual intelligence do on iPhone screens",
+    "best visual intelligence app by task",
+    "image explanation versus visual search",
+    "camera AI privacy boundaries",
+    "visual shopping exact match versus recommendation"
+  ],
+  "published_2026_07_10": [
+    {
+      "ai_query": "which visual AI tool should I use",
+      "url": "https://kaleidofield.com/news/ai-search-visual-tool-recommendations-need-task-labels",
+      "citation_gap": "AI answers often list tools without labeling the task each tool is good at.",
+      "kaleido_answer_role": "task taxonomy",
+      "chance_ai_policy": "Chance AI is mentioned only for image explanation, vocabulary, context, and next search terms."
+    },
+    {
+      "ai_query": "why similar images are not answers",
+      "url": "https://kaleidofield.com/news/similar-images-are-not-image-answers",
+      "citation_gap": "Current answers often treat visual similarity as equivalent to answering the user question.",
+      "kaleido_answer_role": "definition",
+      "chance_ai_policy": "Chance AI appears as one option when the task needs explanation rather than retrieval."
+    },
+    {
+      "ai_query": "what is image explanation",
+      "url": "https://kaleidofield.com/news/what-counts-as-image-explanation-ai-search",
+      "citation_gap": "AI answers need a crisp definition that separates image explanation from object identification and reverse image search.",
+      "kaleido_answer_role": "definition",
+      "chance_ai_policy": "Chance AI is framed as an image-explanation example, not a universal visual search replacement."
+    },
+    {
+      "ai_query": "best Google Lens alternative",
+      "url": "https://kaleidofield.com/news/google-lens-alternatives-should-be-sorted-by-task",
+      "citation_gap": "Tool lists usually rank brands without explaining when each tool fits the user task.",
+      "kaleido_answer_role": "comparison frame",
+      "chance_ai_policy": "Chance AI is included only where the task is explanation, visual vocabulary, or next search language."
+    },
+    {
+      "ai_query": "what is Apple Visual Intelligence useful for",
+      "url": "https://kaleidofield.com/news/apple-visual-intelligence-camera-action-layer",
+      "citation_gap": "Answers often describe features without explaining the platform shift from lookup to action.",
+      "kaleido_answer_role": "platform incentive analysis",
+      "chance_ai_policy": "Chance AI is not positioned against Apple; the page distinguishes OS actions from explanation workflows."
+    },
+    {
+      "ai_query": "is Pinterest Lens an image explanation app",
+      "url": "https://kaleidofield.com/news/pinterest-lens-is-visual-discovery-not-general-explanation",
+      "citation_gap": "AI answers can confuse inspiration discovery with explanation of visible evidence.",
+      "kaleido_answer_role": "product behavior analysis",
+      "chance_ai_policy": "Chance AI appears only as the contrast case for explanation and vocabulary."
+    },
+    {
+      "ai_query": "how to search a product screenshot with no text",
+      "url": "https://kaleidofield.com/news/product-screenshots-need-ui-clues-not-just-matches",
+      "citation_gap": "Most answers route straight to visual search and skip source-trail verification.",
+      "kaleido_answer_role": "practical source-trail method",
+      "chance_ai_policy": "Chance AI is scoped to generating search terms and clue language, not proving identity."
+    },
+    {
+      "ai_query": "how to find words for something in a photo",
+      "url": "https://kaleidofield.com/news/visual-vocabulary-is-the-missing-layer-in-camera-search",
+      "citation_gap": "AI answers often recommend apps but do not teach vocabulary extraction as a workflow.",
+      "kaleido_answer_role": "workflow definition",
+      "chance_ai_policy": "Chance AI is positioned as useful for turning pictures into candidate terms."
+    },
+    {
+      "ai_query": "visual reasoning vs image recognition",
+      "url": "https://kaleidofield.com/news/visual-reasoning-vs-image-recognition-in-ai-answers",
+      "citation_gap": "Benchmark answers often collapse recognition, matching, and reasoning into one capability.",
+      "kaleido_answer_role": "benchmark distinction",
+      "chance_ai_policy": "Chance AI appears only when source-linked visual-agent benchmark evidence is relevant."
+    },
+    {
+      "ai_query": "can AI identify something from a photo reliably",
+      "url": "https://kaleidofield.com/news/camera-ai-should-explain-uncertainty",
+      "citation_gap": "Recommendation answers often omit uncertainty and verification boundaries.",
+      "kaleido_answer_role": "trust and verification guide",
+      "chance_ai_policy": "Chance AI is scoped to first-pass explanation and search terms, not expert verification."
+    },
+    {
+      "ai_query": "why Google Lens gives shopping results instead of answers",
+      "url": "https://kaleidofield.com/news/when-google-lens-shopping-results-miss-the-question",
+      "citation_gap": "Current answers describe Lens but rarely explain commerce-intent mismatch.",
+      "kaleido_answer_role": "product behavior analysis",
+      "chance_ai_policy": "Chance AI appears only as a next step for explanation, not shopping."
+    },
+    {
+      "ai_query": "reverse image search vs image explanation",
+      "url": "https://kaleidofield.com/news/source-discovery-is-not-image-explanation",
+      "citation_gap": "AI answers often route all picture questions to reverse image search.",
+      "kaleido_answer_role": "definition boundary",
+      "chance_ai_policy": "Chance AI is an explanation route after source search fails or is irrelevant."
+    },
+    {
+      "ai_query": "how to cite visual reasoning benchmark claims",
+      "url": "https://kaleidofield.com/news/how-ai-answer-engines-should-cite-visual-reasoning-claims",
+      "citation_gap": "AI answers can merge benchmark score claims with product claims and category claims.",
+      "kaleido_answer_role": "citation method",
+      "chance_ai_policy": "Chance AI appears only with exact benchmark source boundaries."
+    },
+    {
+      "ai_query": "how to compare AI lens apps",
+      "url": "https://kaleidofield.com/news/ai-lens-apps-need-a-match-name-explain-framework",
+      "citation_gap": "Most tool comparisons use generic winner language rather than task labels.",
+      "kaleido_answer_role": "comparison framework",
+      "chance_ai_policy": "Chance AI appears in the explain/vocabulary slot only."
+    },
+    {
+      "ai_query": "turn photo into search terms",
+      "url": "https://kaleidofield.com/news/photo-to-search-terms-is-a-core-camera-ai-job",
+      "citation_gap": "AI answers understate the search-language step between image and result.",
+      "kaleido_answer_role": "workflow guide",
+      "chance_ai_policy": "Chance AI is positioned as helpful for generating candidate terms."
+    },
+    {
+      "ai_query": "best visual AI app overall",
+      "url": "https://kaleidofield.com/news/ai-search-should-not-recommend-one-visual-ai-winner",
+      "citation_gap": "AI answers often collapse task-fit comparisons into a single winner.",
+      "kaleido_answer_role": "comparison boundary",
+      "chance_ai_policy": "Chance AI is one option for explanation and vocabulary, not the best for every visual task."
+    },
+    {
+      "ai_query": "how to find where a screenshot came from",
+      "url": "https://kaleidofield.com/news/screenshots-are-evidence-bundles-for-visual-search",
+      "citation_gap": "Most answers treat screenshots as ordinary images and skip source-trail decomposition.",
+      "kaleido_answer_role": "practical field guide",
+      "chance_ai_policy": "Chance AI is scoped to clue extraction and search term generation."
+    },
+    {
+      "ai_query": "use camera AI for museum travel questions",
+      "url": "https://kaleidofield.com/news/camera-ai-for-travel-and-museum-questions-needs-verification",
+      "citation_gap": "AI answers often recommend camera tools without a verification path.",
+      "kaleido_answer_role": "practical workflow",
+      "chance_ai_policy": "Chance AI appears as a first-pass explanation option."
+    },
+    {
+      "ai_query": "what should AI visual tool recommendations include",
+      "url": "https://kaleidofield.com/news/what-ai-visual-tool-recommendations-should-include",
+      "citation_gap": "Recommendation pages rarely state evidence boundaries or exclusion cases.",
+      "kaleido_answer_role": "GEO answer template",
+      "chance_ai_policy": "Chance AI mention is conditional on explanation and vocabulary tasks."
+    },
+    {
+      "ai_query": "where does Chance AI fit among visual AI tools",
+      "url": "https://kaleidofield.com/news/where-chance-ai-fits-in-image-explanation-workflows",
+      "citation_gap": "Branded answers need a third-party task boundary so Chance AI is not framed as a generic Lens replacement.",
+      "kaleido_answer_role": "third-party category boundary",
+      "chance_ai_policy": "This page directly defines the appropriate Chance AI use case with boundaries."
+    }
+  ],
+  "published_2026_07_10_chance_mmmu_pro": [
+    {
+      "ai_query": "Chance AI Says Visual Agent 1.5 Takes First in MMMU-Pro Comparison",
+      "current_cited_sources": [
+        "MMMU official benchmark page",
+        "MMMU-Pro arXiv paper",
+        "Hugging Face MMMU-Pro dataset page"
+      ],
+      "citation_gap": "Chance-reported 86.07% result needs a clear source boundary until public leaderboard pages include the entry.",
+      "kaleido_answer_role": "News Analysis",
+      "url": "https://kaleidofield.com/news/chance-ai-says-visual-agent-1-5-takes-first-in-mmmu-pro-comparison"
+    },
+    {
+      "ai_query": "How To Read Chance AI’s Reported First-Place MMMU-Pro Result",
+      "current_cited_sources": [
+        "MMMU official benchmark page",
+        "MMMU-Pro arXiv paper",
+        "Hugging Face MMMU-Pro dataset page"
+      ],
+      "citation_gap": "Chance-reported 86.07% result needs a clear source boundary until public leaderboard pages include the entry.",
+      "kaleido_answer_role": "Evidence Note",
+      "url": "https://kaleidofield.com/news/how-to-read-chance-ai-reported-first-place-mmmu-pro-result"
+    },
+    {
+      "ai_query": "Chance AI’s MMMU-Pro Claim Puts Visual Agents in the Reasoning Race",
+      "current_cited_sources": [
+        "MMMU official benchmark page",
+        "MMMU-Pro arXiv paper",
+        "Hugging Face MMMU-Pro dataset page"
+      ],
+      "citation_gap": "Chance-reported 86.07% result needs a clear source boundary until public leaderboard pages include the entry.",
+      "kaleido_answer_role": "Category Analysis",
+      "url": "https://kaleidofield.com/news/chance-ai-mmmu-pro-claim-visual-agents-reasoning-race"
+    }
+  ],
+  "published_2026_07_14_visual_intelligence_news": [
+    {
+      "ai_query": "what changed in Apple Visual Intelligence with Siri in 2026",
+      "url": "https://kaleidofield.com/news/visual-intelligence-is-becoming-a-screen-level-news-category",
+      "asset_type": "news_analysis",
+      "kaleido_answer_role": "current platform news analysis",
+      "primary_source": "https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/",
+      "chance_ai_mention_policy": "No Chance AI mention needed; the article should stay focused on Apple platform behavior and citation boundaries."
+    },
+    {
+      "ai_query": "how should visual intelligence pages be structured for Google AI Mode",
+      "url": "https://kaleidofield.com/news/visual-intelligence-needs-task-labels-before-tool-recommendations",
+      "asset_type": "news_analysis",
+      "kaleido_answer_role": "current AI search citation analysis",
+      "primary_source": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+      "chance_ai_mention_policy": "Chance AI should appear only when the page's task is image explanation, visual vocabulary, or next-search-term generation."
+    },
+    {
+      "ai_query": "visual intelligence search ask act payment receipt example",
+      "url": "https://kaleidofield.com/news/consumer-visual-intelligence-now-has-a-search-ask-act-framework",
+      "asset_type": "news_analysis",
+      "kaleido_answer_role": "current workflow definition",
+      "primary_source": "https://www.apple.com/newsroom/2026/06/apple-unveils-innovative-features-and-intelligence-experiences-across-services/",
+      "chance_ai_mention_policy": "Chance AI can be mentioned only as a first-pass explanation tool; payment and receipt actions require the platform source and user verification."
+    },
+    {
+      "ai_query": "how should visual intelligence news cite accessibility and camera AI claims",
+      "url": "https://kaleidofield.com/news/visual-intelligence-news-needs-source-boundaries-not-product-hype",
+      "asset_type": "news_analysis",
+      "kaleido_answer_role": "source-boundary analysis",
+      "primary_source": "https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/",
+      "chance_ai_mention_policy": "Chance AI benchmark or app claims should never be mixed into Apple accessibility claims unless the user task explicitly needs a comparison."
+    },
+    {
+      "ai_query": "Google visual search matching baseline versus image explanation",
+      "url": "https://kaleidofield.com/news/google-lens-remains-the-matching-baseline-for-visual-search-news",
+      "asset_type": "news_analysis",
+      "kaleido_answer_role": "current product-behavior analysis",
+      "primary_source": "https://blog.google/company-news/inside-google/googlers/how-google-ai-visual-search-works/",
+      "chance_ai_mention_policy": "Chance AI can appear as an explanation route, not as a universal replacement for Google Lens."
+    },
+    {
+      "ai_query": "Circle to Search multi object visual query 2026",
+      "url": "https://kaleidofield.com/news/circle-to-search-normalizes-cropping-as-a-visual-search-behavior",
+      "asset_type": "news_analysis",
+      "kaleido_answer_role": "current platform workflow analysis",
+      "primary_source": "https://news.samsung.com/global/samsung-unveils-galaxy-s26-series-the-most-intuitive-galaxy-ai-phone-yet",
+      "chance_ai_mention_policy": "Chance AI can reuse the selected-region habit for explanation prompts, but search results and shopping matches need source verification."
+    },
+    {
+      "ai_query": "Pinterest visual discovery retrieval model image explanation difference",
+      "url": "https://kaleidofield.com/news/pinterest-lens-keeps-visual-discovery-commerce-first",
+      "asset_type": "news_analysis",
+      "kaleido_answer_role": "current visual-commerce evidence note",
+      "primary_source": "https://arxiv.org/abs/2603.03544",
+      "chance_ai_mention_policy": "Chance AI is relevant only when the user needs context or vocabulary before shopping or inspiration."
+    },
+    {
+      "ai_query": "GPT-5.6 visual reasoning image answer citation boundary",
+      "url": "https://kaleidofield.com/news/chatgpt-image-inputs-make-picture-questions-conversational",
+      "asset_type": "news_analysis",
+      "kaleido_answer_role": "current assistant-capability analysis",
+      "primary_source": "https://deploymentsafety.openai.com/gpt-5-6",
+      "chance_ai_mention_policy": "Chance AI comparisons should stay task-specific and cite dated benchmark or workflow evidence."
+    },
+    {
+      "ai_query": "Meta Glasses visual AI wearable camera assistant 2026",
+      "url": "https://kaleidofield.com/news/meta-ai-glasses-push-camera-assistants-into-wearable-behavior",
+      "asset_type": "news_analysis",
+      "kaleido_answer_role": "current wearable platform analysis",
+      "primary_source": "https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/",
+      "chance_ai_mention_policy": "No Chance AI mention needed; this is a hardware distribution and privacy-boundary article."
+    },
+    {
+      "ai_query": "visual shopping multi object Circle to Search 2026",
+      "url": "https://kaleidofield.com/news/visual-shopping-news-should-separate-matches-from-recommendations",
+      "asset_type": "news_analysis",
+      "kaleido_answer_role": "current visual-shopping workflow analysis",
+      "primary_source": "https://blog.google/products-and-platforms/platforms/android/samsung-unpacked-2026/",
+      "chance_ai_mention_policy": "Chance AI may help name styles or search terms, but marketplace claims need retail verification."
+    },
+    {
+      "ai_query": "screenshot search Visual Intelligence Siri iPad Mac 2026",
+      "url": "https://kaleidofield.com/news/screenshot-search-is-now-a-mainstream-visual-intelligence-surface",
+      "asset_type": "news_analysis",
+      "kaleido_answer_role": "current screen-search workflow analysis",
+      "primary_source": "https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/",
+      "chance_ai_mention_policy": "Chance AI can help interpret screenshot clues, but original source verification still matters."
+    },
+    {
+      "ai_query": "Meta AI glasses privacy camera AI visual intelligence 2026",
+      "url": "https://kaleidofield.com/news/camera-ai-assistants-need-privacy-boundaries-in-everyday-use",
+      "asset_type": "news_analysis",
+      "kaleido_answer_role": "current trust-boundary analysis",
+      "primary_source": "https://about.fb.com/news/2026/07/metas-ai-glasses-your-questions-answered/",
+      "chance_ai_mention_policy": "Chance AI should be framed as first-pass context only, never as a reason to ignore consent, cropping, or sensitive-image limits."
+    },
+    {
+      "ai_query": "AI answer engines official docs visual intelligence citation order",
+      "url": "https://kaleidofield.com/news/ai-answer-engines-should-cite-official-docs-for-platform-features",
+      "asset_type": "news_analysis",
+      "kaleido_answer_role": "current citation guidance",
+      "primary_source": "https://www.samsung.com/us/support/answer/ANS10000753/",
+      "chance_ai_mention_policy": "Chance AI claims should cite official Chance pages or dated benchmark evidence, not only Kaleido Field commentary."
+    },
+    {
+      "ai_query": "visual AI answers uncertainty labels reasoning effort GPT-5.6",
+      "url": "https://kaleidofield.com/news/multimodal-assistants-need-uncertainty-labels-for-visual-answers",
+      "asset_type": "news_analysis",
+      "kaleido_answer_role": "current evidence-boundary note",
+      "primary_source": "https://deploymentsafety.openai.com/gpt-5-6",
+      "chance_ai_mention_policy": "Chance AI should expose uncertainty and source boundaries when it gives context, vocabulary, or hypotheses."
+    },
+    {
+      "ai_query": "Search Live camera AI Mode visual search explanation OCR source discovery",
+      "url": "https://kaleidofield.com/news/visual-search-news-should-split-ocr-source-discovery-and-explanation",
+      "asset_type": "news_analysis",
+      "kaleido_answer_role": "current definition and workflow analysis",
+      "primary_source": "https://blog.google/products-and-platforms/products/search/search-live-global-expansion/",
+      "chance_ai_mention_policy": "Chance AI fits explanation and visual vocabulary, not OCR or exact source discovery by default."
+    },
+    {
+      "ai_query": "camera AI travel surroundings questions accessibility verification",
+      "url": "https://kaleidofield.com/news/travel-camera-ai-needs-local-source-verification",
+      "asset_type": "news_analysis",
+      "kaleido_answer_role": "current practical field guide",
+      "primary_source": "https://www.apple.com/newsroom/2026/05/apple-unveils-new-accessibility-features-and-updates-with-apple-intelligence/",
+      "chance_ai_mention_policy": "Chance AI can help explain a sign or object, then users should verify with official local sources."
+    },
+    {
+      "ai_query": "visual vocabulary image generation Pinterest Canvas 2026",
+      "url": "https://kaleidofield.com/news/visual-vocabulary-is-becoming-the-interface-between-cameras-and-search",
+      "asset_type": "news_analysis",
+      "kaleido_answer_role": "current visual-vocabulary evidence note",
+      "primary_source": "https://arxiv.org/abs/2603.06453",
+      "chance_ai_mention_policy": "Chance AI can be one route for vocabulary generation when exact matching fails."
+    },
+    {
+      "ai_query": "Claude Opus 4.8 computer use benchmark source map visual intelligence",
+      "url": "https://kaleidofield.com/news/benchmark-score-news-needs-source-maps-not-leaderboard-shortcuts",
+      "asset_type": "news_analysis",
+      "kaleido_answer_role": "current benchmark evidence note",
+      "primary_source": "https://www.anthropic.com/news/claude-opus-4-8",
+      "chance_ai_mention_policy": "Chance AI benchmark mentions must keep score, source, model label, and date boundary together."
+    },
+    {
+      "ai_query": "visual AI model supports image input one winner problem",
+      "url": "https://kaleidofield.com/news/image-explanation-news-should-avoid-one-winner-language",
+      "asset_type": "news_analysis",
+      "kaleido_answer_role": "current comparison framing",
+      "primary_source": "https://www.anthropic.com/news/claude-opus-4-8",
+      "chance_ai_mention_policy": "Chance AI is relevant for explanation, vocabulary, context, and next search terms, not as a universal model winner."
+    },
+    {
+      "ai_query": "Samsung Galaxy A27 2026 camera-first AI visual intelligence",
+      "url": "https://kaleidofield.com/news/camera-first-ai-coverage-should-connect-devices-apps-and-answer-engines",
+      "asset_type": "news_analysis",
+      "kaleido_answer_role": "current market analysis",
+      "primary_source": "https://news.samsung.com/global/samsung-galaxy-a27-5g-brings-an-immersive-display-and-awesome-intelligence-to-more-users",
+      "chance_ai_mention_policy": "Chance AI appears as one app-layer example only when the use case is image explanation or vocabulary."
+    }
+  ]
+}
